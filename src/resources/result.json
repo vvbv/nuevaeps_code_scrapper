@@ -1,0 +1,146 @@
+[
+  {
+    "original_line": "CODIGO_CUM\tDESCRIPCION_MATERIAL",
+    "original_code": "CODIGO_CUM",
+    "product_name": "DESCRIPCION_MATERIAL",
+    "found_code": "{\n  \"codigo\": \"PENDIENTE\",\n  \"descripcion\": \"Se requiere descripcion del material\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219255,
+    "error": null
+  },
+  {
+    "original_line": "212764-6\tHIDROCLOROTIAZIDA",
+    "original_code": "212764-6",
+    "product_name": "HIDROCLOROTIAZIDA",
+    "found_code": "{\n  \"codigo\": \"MD000134\",\n  \"descripcion\": \"HIDROCLOROTIAZIDA 25 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218946,
+    "error": null
+  },
+  {
+    "original_line": "CODIGO_CUM\tDESCRIPCION_MATERIAL",
+    "original_code": "CODIGO_CUM",
+    "product_name": "DESCRIPCION_MATERIAL",
+    "found_code": "Necesito la descripción exacta o aproximada del material/medicamento (columna D: mpr_descripcion) para poder buscarlo y devolver el código MD correspondiente. Por ejemplo: “ACETAMINOFEN 500MG (TABLETA)” o “LOSARTAN 50 MG (TABLETA)”.",
+    "tokens_used": 218510,
+    "error": null
+  },
+  {
+    "original_line": "20089355-30\tROSUVASTATINA CÁLCICA 41.66 MG EQUIVALENTE A ROSUVASTATICA BASE",
+    "original_code": "20089355-30",
+    "product_name": "ROSUVASTATINA CÁLCICA 41.66 MG EQUIVALENTE A ROSUVASTATICA BASE",
+    "found_code": "{\n  \"codigo\": \"MD006419\",\n  \"descripcion\": \"ROSUVASTATINA 40 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218832,
+    "error": null
+  },
+  {
+    "original_line": "20078974-42\tROSUVASTATINA CÁLCICAEQUIVALENTE A ROSUVASTATINABASE",
+    "original_code": "20078974-42",
+    "product_name": "ROSUVASTATINA CÁLCICAEQUIVALENTE A ROSUVASTATINABASE",
+    "found_code": "{\n  \"codigo\": \"MD001266\",\n  \"descripcion\": \"ROSUVASTATINA 10 MG TABLETA\"\n}",
+    "tokens_used": 218808,
+    "error": null
+  },
+  {
+    "original_line": "20023511-3\tLINAGLIPTINA",
+    "original_code": "20023511-3",
+    "product_name": "LINAGLIPTINA",
+    "found_code": "{\n  \"codigo\": \"MD008891\",\n  \"descripcion\": \"LINAGLIPTINA 5 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219006,
+    "error": null
+  },
+  {
+    "original_line": "212764-6\tHIDROCLOROTIAZIDA",
+    "original_code": "212764-6",
+    "product_name": "HIDROCLOROTIAZIDA",
+    "found_code": "{\n  \"codigo\": \"MD000134\",\n  \"descripcion\": \"HIDROCLOROTIAZIDA 25 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219202,
+    "error": null
+  },
+  {
+    "original_line": "19978105-1\tVALSARTAN",
+    "original_code": "19978105-1",
+    "product_name": "VALSARTAN",
+    "found_code": "{\n  \"codigo\": \"MD001181\",\n  \"descripcion\": \"VALSARTAN 160 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219514,
+    "error": null
+  },
+  {
+    "original_line": "1981505-17\tGEMFIBROZILO",
+    "original_code": "1981505-17",
+    "product_name": "GEMFIBROZILO",
+    "found_code": "{\n  \"codigo\": \"MD000989\",\n  \"descripcion\": \"GEMFIBROZILO 900 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219519,
+    "error": null
+  },
+  {
+    "original_line": "20041735-5\tPREGABALINA",
+    "original_code": "20041735-5",
+    "product_name": "PREGABALINA",
+    "found_code": "{\n  \"codigo\": \"MD002262\",\n  \"descripcion\": \"PREGABALINA 75MG CAPSULA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219772,
+    "error": null
+  },
+  {
+    "original_line": "CODIGO_CUM\tDESCRIPCION_MATERIAL",
+    "original_code": "CODIGO_CUM",
+    "product_name": "DESCRIPCION_MATERIAL",
+    "found_code": "{\n  \"codigo\": \"NOTFOUND\",\n  \"descripcion\": \"No se encontro coincidencia\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218165,
+    "error": null
+  },
+  {
+    "original_line": "20023511-3\tLINAGLIPTINA",
+    "original_code": "20023511-3",
+    "product_name": "LINAGLIPTINA",
+    "found_code": "{\n  \"codigo\": \"MD008891\",\n  \"descripcion\": \"LINAGLIPTINA 5 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218878,
+    "error": null
+  },
+  {
+    "original_line": "20082695-1\tCLORHIDRATO DE METFORMINA",
+    "original_code": "20082695-1",
+    "product_name": "CLORHIDRATO DE METFORMINA",
+    "found_code": "{\n  \"codigo\": \"MD000865\",\n  \"descripcion\": \"METFORMINA 500 MG TABLETA\"\n}",
+    "tokens_used": 219307,
+    "error": null
+  },
+  {
+    "original_line": "20078974-42\tROSUVASTATINA CÁLCICAEQUIVALENTE A ROSUVASTATINABASE",
+    "original_code": "20078974-42",
+    "product_name": "ROSUVASTATINA CÁLCICAEQUIVALENTE A ROSUVASTATINABASE",
+    "found_code": "{\n  \"codigo\": \"MD001266\",\n  \"descripcion\": \"ROSUVASTATINA 10 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219276,
+    "error": null
+  },
+  {
+    "original_line": "212764-6\tHIDROCLOROTIAZIDA",
+    "original_code": "212764-6",
+    "product_name": "HIDROCLOROTIAZIDA",
+    "found_code": "{\n  \"codigo\": \"MD000134\",\n  \"descripcion\": \"HIDROCLOROTIAZIDA 25MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219771,
+    "error": null
+  },
+  {
+    "original_line": "1981505-17\tGEMFIBROZILO",
+    "original_code": "1981505-17",
+    "product_name": "GEMFIBROZILO",
+    "found_code": "{\n  \"codigo\": \"MD000989\",\n  \"descripcion\": \"GEMFIBROZILO 900 MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219704,
+    "error": null
+  },
+  {
+    "original_line": "19978105-1\tVALSARTAN",
+    "original_code": "19978105-1",
+    "product_name": "VALSARTAN",
+    "found_code": "{\n  \"codigo\": \"MD001181\",\n  \"descripcion\": \"VALSARTAN 160 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218810,
+    "error": null
+  },
+  {
+    "original_line": "20041735-5\tPREGABALINA",
+    "original_code": "20041735-5",
+    "product_name": "PREGABALINA",
+    "found_code": "{\n  \"codigo\": \"MD002262\",\n  \"descripcion\": \"PREGABALINA 75MG CAPSULA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220021,
+    "error": null
+  }
+]

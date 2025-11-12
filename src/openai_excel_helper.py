@@ -177,7 +177,10 @@ Contenido (formato CSV):
                 "error": str(e)
             }
     
-    def query_with_excel_content(self, excel_path: str, prompt: str, temperature: float = 1) -> Dict[str, Any]:
+    def query_with_excel_content(
+            self, excel_path: str, prompt: str, temperature: float = 1,
+            aux_original_code: str = None
+    ) -> Dict[str, Any]:
         """
         Procesa un archivo Excel directamente convirtiendo su contenido a texto.
         Útil para archivos pequeños o consultas únicas.
@@ -194,6 +197,34 @@ Contenido (formato CSV):
             raise FileNotFoundError(f"Archivo Excel no encontrado: {excel_path}")
         
         print(f"Procesando {excel_path} con OpenAI...")
+
+        expected_response = {
+            "type": "object",
+            "properties": {
+                "codigo": {
+                    "type": "string",
+                    "description": "Código alfanumérico identificador del elemento",
+                    "pattern": "^[A-Za-z0-9]+$"
+                },
+                    "descripcion": {
+                    "type": "string",
+                    "description": "Descripción alfanumérica del elemento",
+                    "pattern": "^[A-Za-z0-9\\s]+$"
+                },
+                    "original_code": {
+                    "type": "string",
+                    "description": "Código original inmutable",
+                    "const": aux_original_code
+                },
+                    "original_file": {
+                    "type": "string",
+                    "description": "Nombre o ruta del archivo original inmutable",
+                    "const": excel_path
+                }
+            },
+            "required": ["codigo", "descripcion"]
+            }
+
         
         try:
             # Leer el archivo Excel con pandas
@@ -211,8 +242,8 @@ Contenido (formato CSV):
             columns = list(df.columns)
             
             # Limitar el contenido si es muy grande (primeras 100 filas)
-            if num_rows > 100:
-                sample_df = df.head(100)
+            if num_rows > 5000:
+                sample_df = df.head(5000)
                 csv_content = sample_df.to_csv(index=False)
                 content_note = f"\nNOTA: El archivo tiene {num_rows} filas, pero solo se muestran las primeras 100 para análisis."
             else:
@@ -228,9 +259,26 @@ Contenido del archivo (formato CSV):
 ```
 {content_note}
 
+INSTRUCCIONES IMPORTANTES:
+- Cuando se te pida buscar un medicamento o principio activo, debes buscar en la COLUMNA D
+- NO necesitas una coincidencia EXACTA, busca la descripción más aproximada o similar
+- Considera variaciones en la escritura, concentraciones equivalentes, y sinónimos
+- El CÓDIGO que debes retornar es el que se encuentra en la COLUMNA A de la fila que mejor coincida
+- Busca en todas las filas del archivo
+- Si hay múltiples coincidencias cercanas, elige la más similar considerando:
+  * Principio activo
+  * Concentración (ejemplo: 0.064g puede estar como 64mg, son equivalentes)
+  * Forma farmacéutica
+
 Pregunta del usuario: {prompt}
 
-Responde basándote en los datos proporcionados."""
+Responde basándote en los datos proporcionados. Si buscas un código, indica claramente el valor de la columna A.
+
+cumpliendo la siguiente estructura de respuesta:
+
+{json.dumps(expected_response, indent=2, ensure_ascii=False)}
+
+"""
             
             # Usar la API de OpenAI
             client = openai.OpenAI(api_key=self.api_key)
@@ -283,7 +331,7 @@ Responde basándote en los datos proporcionados."""
 
 
 def simple_excel_query(api_key: str, excel_path: str, prompt: str, 
-                       model: str = "gpt-4o", temperature: float = 1) -> Dict[str, Any]:
+                       model: str = "gpt-5", temperature: float = 1) -> Dict[str, Any]:
     """
     Función simple para hacer una consulta única sobre un archivo Excel.
     
