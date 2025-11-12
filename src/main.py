@@ -242,11 +242,20 @@ def process_codes_to_solve(excel_path: str, api_key: str, txt_path: str, model: 
     
     # Cargar resultados existentes si el archivo existe
     existing_results = []
+    processed_lines = set()  # Para trackear líneas ya procesadas exitosamente
+    
     if os.path.exists(output_path):
         try:
             with open(output_path, 'r', encoding='utf-8') as f:
                 existing_results = json.load(f)
             print(f"📄 Cargados {len(existing_results)} resultados previos de {output_path}")
+            
+            # Crear un set de líneas ya procesadas exitosamente (sin error)
+            for result in existing_results:
+                if result.get('error') is None:
+                    processed_lines.add(result.get('original_line', '').strip())
+            
+            print(f"✅ {len(processed_lines)} códigos ya procesados exitosamente (se omitirán)")
         except Exception as e:
             print(f"⚠️  No se pudieron cargar resultados previos: {e}")
     
@@ -257,9 +266,20 @@ def process_codes_to_solve(excel_path: str, api_key: str, txt_path: str, model: 
     print(f"💡 Límite TPM: 1,000,000 tokens (~{max_workers} peticiones × ~90k tokens)")
     print("-" * 80)
     
-    # Leer el archivo de códigos y filtrar líneas vacías
+    # Leer el archivo de códigos y filtrar líneas vacías y ya procesadas
     with open(txt_path, 'r', encoding='utf-8') as f:
-        lines = [(idx, line) for idx, line in enumerate(f.readlines(), 1) if line.strip()]
+        all_lines = [(idx, line) for idx, line in enumerate(f.readlines(), 1) if line.strip()]
+    
+    # Filtrar las líneas ya procesadas exitosamente
+    lines = [(idx, line) for idx, line in all_lines if line.strip() not in processed_lines]
+    
+    skipped_count = len(all_lines) - len(lines)
+    if skipped_count > 0:
+        print(f"⏭️  Omitiendo {skipped_count} códigos ya procesados exitosamente")
+    
+    if not lines:
+        print("✅ No hay códigos nuevos para procesar. Todos ya fueron procesados exitosamente.")
+        return
     
     results = existing_results.copy()
     total_lines = len(lines)
