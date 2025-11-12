@@ -7604,5 +7604,177 @@
     "found_code": "{\n  \"codigo\": \"MD018977\",\n  \"descripcion\": \"GUSELKUMAB 100MGML SOLUCION INYECTABLE JERINGA PRELLENADA CON DISPOSITIVO ULTRSAFE PLUS SUBCUTANEA 1ML TREMFYA\"\n}",
     "tokens_used": 218951,
     "error": null
+  },
+  {
+    "original_line": "20092728-2\tBETAMETASONA 0.1% CREMA 20G",
+    "original_code": "20092728-2",
+    "product_name": "BETAMETASONA 0.1% CREMA 20G",
+    "found_code": "{\n  \"codigo\": \"MD010365\",\n  \"descripcion\": \"BETAMETASONA DIPROPIONATO 0 1 CREMA TOPICA 20G\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219152,
+    "error": null
+  },
+  {
+    "original_line": "20096491-1\tOXIMETAZOLINA HCL",
+    "original_code": "20096491-1",
+    "product_name": "OXIMETAZOLINA HCL",
+    "found_code": "{\n  \"codigo\": \"MD000567\",\n  \"descripcion\": \"OXIMETAZOLINA 0.5 mg mL SOLUCION NASAL\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219208,
+    "error": null
+  },
+  {
+    "original_line": "20092728-7\tBETAMETASONA VALERATO EQUIVALENTE A BETAMETASONA BASE",
+    "original_code": "20092728-7",
+    "product_name": "BETAMETASONA VALERATO EQUIVALENTE A BETAMETASONA BASE",
+    "found_code": "{\n  \"codigo\": \"MD010264\",\n  \"descripcion\": \"BETAMETASONA VALERATO CREMA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219978,
+    "error": null
+  },
+  {
+    "original_line": "20205955\t WIPRO-SM SOBRE 40G",
+    "original_code": "20205955",
+    "product_name": "WIPRO-SM SOBRE 40G",
+    "found_code": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"codigo\": \"MD018380\",\n    \"descripcion\": \"ALIMENTO FORMULA POLIMERICA EN POLVO CON CALORIAS PROTEINA LEUCINA AMINOACIDOS CARBOHIDRATOS LIPIDOS Y VITAMINA D POLVO ORAL SOBRE 40G WIPRO SIM\",\n    \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n  },\n  \"required\": [\n    \"codigo\",\n    \"descripcion\"\n  ]\n}",
+    "tokens_used": 219774,
+    "error": null
+  },
+  {
+    "original_line": "19973788-3\tCLOTRIMAZOL",
+    "original_code": "19973788-3",
+    "product_name": "CLOTRIMAZOL",
+    "found_code": "{\n  \"codigo\": \"MD003636\",\n  \"descripcion\": \"CLOTRIMAZOL\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219761,
+    "error": null
+  },
+  {
+    "original_line": "19918906-1\tFUMARATO DE FORMOTEROL DIHIDRATADO",
+    "original_code": "19918906-1",
+    "product_name": "FUMARATO DE FORMOTEROL DIHIDRATADO",
+    "found_code": "{\n  \"codigo\": \"MD015869\",\n  \"descripcion\": \"BUDESONIDA FORMOTEROL FUMARATO DIHIDRATADO 160 4.5 MCG DOSIS POLVO PARA INHALAR 120 DOSIS\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220131,
+    "error": null
+  },
+  {
+    "original_line": "20080145-7\tDONABELLA® 2 MG /0,035 MG",
+    "original_code": "20080145-7",
+    "product_name": "DONABELLA® 2 MG /0,035 MG",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 986474, Requested 107472. Please try again in 5.636s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "19940740-2\tACICLOVIR",
+    "original_code": "19940740-2",
+    "product_name": "ACICLOVIR",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 980274, Requested 107467. Please try again in 5.264s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20059782-5\tMEMANTINA CLORHIDRATO",
+    "original_code": "20059782-5",
+    "product_name": "MEMANTINA CLORHIDRATO",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 976303, Requested 107470. Please try again in 5.026s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "202501\tPREPARACION MAGISTRAL",
+    "original_code": "202501",
+    "product_name": "PREPARACION MAGISTRAL",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 974644, Requested 107469. Please try again in 4.926s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "19951339-1\tCROMOGLICATO DE SODIO",
+    "original_code": "19951339-1",
+    "product_name": "CROMOGLICATO DE SODIO",
+    "found_code": "{\n  \"codigo\": \"MD000563\",\n  \"descripcion\": \"CROMOGLICATO DE SODIO\"\n}",
+    "tokens_used": 219437,
+    "error": null
+  },
+  {
+    "original_line": "20016430-9\tROSUVASTATINA CALCICA EQUIVALENTE A ROSUVASTATINA",
+    "original_code": "20016430-9",
+    "product_name": "ROSUVASTATINA CALCICA EQUIVALENTE A ROSUVASTATINA",
+    "found_code": "{\n  \"codigo\": \"MD001266\",\n  \"descripcion\": \"ROSUVASTATINA 10 MG TABLETA\"\n}",
+    "tokens_used": 219381,
+    "error": null
+  },
+  {
+    "original_line": "20052952-3\tVITAMINA D3 TIPO 100 SD/S70 MGEQUIVALENTE A VITAMINA D3 (COLECALCIFEROL)",
+    "original_code": "20052952-3",
+    "product_name": "VITAMINA D3 TIPO 100 SD/S70 MGEQUIVALENTE A VITAMINA D3 (COLECALCIFEROL)",
+    "found_code": "{\n  \"codigo\": \"MD011253\",\n  \"descripcion\": \"VITAMINA D3 COLECALCIFEROL 2000 UI CAPSULA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220514,
+    "error": null
+  },
+  {
+    "original_line": "20103113-7\tLORATADINA",
+    "original_code": "20103113-7",
+    "product_name": "LORATADINA",
+    "found_code": "{\n  \"codigo\": \"MD000599\",\n  \"descripcion\": \"LORATADINA 10 MG TABLETA\"\n}",
+    "tokens_used": 218984,
+    "error": null
+  },
+  {
+    "original_line": "218006-3\tPENICILINA G EN FORMA DE PENICILINA BENZATINICA",
+    "original_code": "218006-3",
+    "product_name": "PENICILINA G EN FORMA DE PENICILINA BENZATINICA",
+    "found_code": "{\n  \"codigo\": \"MD000246\",\n  \"descripcion\": \"PENICILINA G BENZATINICA 1200000 UI POLVO PARA INYECCION\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218900,
+    "error": null
+  },
+  {
+    "original_line": "20011479-2\tZINC-OLICOL® SOLUCION ORAL SULFATO DE ZINC MONOHIDRATADO EQUIVALENTE A DE ZINC 200MG",
+    "original_code": "20011479-2",
+    "product_name": "ZINC-OLICOL® SOLUCION ORAL SULFATO DE ZINC MONOHIDRATADO EQUIVALENTE A DE ZINC 200MG",
+    "found_code": "{\n  \"codigo\": \"MD015651\",\n  \"descripcion\": \"SULFATO DE ZINC 2MG ML EQ A 200MG 100ML SOLUCION ORAL 120ML H\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219245,
+    "error": null
+  },
+  {
+    "original_line": "219368-7\tACICLOVIR",
+    "original_code": "219368-7",
+    "product_name": "ACICLOVIR",
+    "found_code": "{\n  \"codigo\": \"MD000311\",\n  \"descripcion\": \"ACICLOVIR 200MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219380,
+    "error": null
+  },
+  {
+    "original_line": "20054699-3\tPENICILINA G BENZATINICA 2.0G EQUIVALENTE ABENCILPENICILINA BENZATÍNICA",
+    "original_code": "20054699-3",
+    "product_name": "PENICILINA G BENZATINICA 2.0G EQUIVALENTE ABENCILPENICILINA BENZATÍNICA",
+    "found_code": "{\n  \"codigo\": \"MD000247\",\n  \"descripcion\": \"PENICILINA G BENZATINICA 2400000 UI POLVO PARA INYECCION\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219619,
+    "error": null
+  },
+  {
+    "original_line": "55341-1\tESTRIOL",
+    "original_code": "55341-1",
+    "product_name": "ESTRIOL",
+    "found_code": "{\n  \"codigo\": \"MD001569\",\n  \"descripcion\": \"ESTRIOL 0 5MG OVULO VAGINAL\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219773,
+    "error": null
+  },
+  {
+    "original_line": "19967929-1\tDESLORATADINA",
+    "original_code": "19967929-1",
+    "product_name": "DESLORATADINA",
+    "found_code": "{\n  \"codigo\": \"MD002670\",\n  \"descripcion\": \"DESLORATADINA 5 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219710,
+    "error": null
+  },
+  {
+    "original_line": "91050062\tPINZA CONVATEC SURFIT",
+    "original_code": "91050062",
+    "product_name": "PINZA CONVATEC SURFIT",
+    "found_code": "{\n  \"codigo\": \"91010109\",\n  \"descripcion\": \"PINZAS BOLSA DRENABLE\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220156,
+    "error": null
+  },
+  {
+    "original_line": "20103393\t SONDA FOLEY 2 VIAS FR20 PRECISION CARE",
+    "original_code": "20103393",
+    "product_name": "SONDA FOLEY 2 VIAS FR20 PRECISION CARE",
+    "found_code": "{\n  \"codigo\": \"2\",\n  \"descripcion\": \"SONDA FOLEY NO 22 DOS VIAS UND\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219777,
+    "error": null
   }
 ]
