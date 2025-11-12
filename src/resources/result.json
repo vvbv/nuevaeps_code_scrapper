@@ -2077,5 +2077,935 @@
     "found_code": "{\n  \"codigo\": \"MD017415\",\n  \"descripcion\": \"COLECALCIFEROL 100000 UI CAPSULA DEBLAX\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
     "tokens_used": 220828,
     "error": null
+  },
+  {
+    "original_line": "19986156-1\tFUROATO DE FLUTICASONA",
+    "original_code": "19986156-1",
+    "product_name": "FUROATO DE FLUTICASONA",
+    "found_code": "{\n  \"codigo\": \"MD003706\",\n  \"descripcion\": \"FUROATO DE FLUTICASONA 27.5 MCG LIQUIDO PARA INHALACION 120 DOSIS\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219217,
+    "error": null
+  },
+  {
+    "original_line": "20132020-11\tBISOPROLOL FUMARATO",
+    "original_code": "20132020-11",
+    "product_name": "BISOPROLOL FUMARATO",
+    "found_code": "{\n  \"codigo\": \"MD001088\",\n  \"descripcion\": \"BISOPROLOL FUMARATO 5 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219331,
+    "error": null
+  },
+  {
+    "original_line": "19942216-1\tCLORFENIRAMINA MALEATO",
+    "original_code": "19942216-1",
+    "product_name": "CLORFENIRAMINA MALEATO",
+    "found_code": "{\n  \"codigo\": \"MD000594\",\n  \"descripcion\": \"CLORFENIRAMINA MALEATO 4 MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219391,
+    "error": null
+  },
+  {
+    "original_line": "19947216-9\tLATANOPROST",
+    "original_code": "19947216-9",
+    "product_name": "LATANOPROST",
+    "found_code": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"codigo\": \"MD002740\",\n    \"descripcion\": \"LATANOPROST 50 MCG ML SOLUCION OFTALMICA\",\n    \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n  },\n  \"required\": [\n    \"codigo\",\n    \"descripcion\"\n  ]\n}",
+    "tokens_used": 219674,
+    "error": null
+  },
+  {
+    "original_line": "34040-3\tNICOTINAMIDA",
+    "original_code": "34040-3",
+    "product_name": "NICOTINAMIDA",
+    "found_code": "{\n  \"codigo\": \"MD013764\",\n  \"descripcion\": \"NICOTINAMIDA VITAMINA B3 VITAMINA B1 VITAMINA B2 VITAMINA B6 20 10 3 20 MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219410,
+    "error": null
+  },
+  {
+    "original_line": "19961661-1\tTACROLIMUS MONOHIDRATO 0.10230 G (EQUIVALENTE A TACROLIMUS)",
+    "original_code": "19961661-1",
+    "product_name": "TACROLIMUS MONOHIDRATO 0.10230 G (EQUIVALENTE A TACROLIMUS)",
+    "found_code": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"codigo\": \"MD012421\",\n    \"descripcion\": \"TACROLIMUS 0 1 G 100G UNGUENTO TOPICO 30G\",\n    \"original_code\": null,\n    \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n  },\n  \"required\": [\n    \"codigo\",\n    \"descripcion\"\n  ]\n}",
+    "tokens_used": 220792,
+    "error": null
+  },
+  {
+    "original_line": "20110698-3\tFLAVONOIDES EXPRESADOS COMO HESPERIDINA 10%",
+    "original_code": "20110698-3",
+    "product_name": "FLAVONOIDES EXPRESADOS COMO HESPERIDINA 10%",
+    "found_code": "{\n  \"codigo\": \"MD007674\",\n  \"descripcion\": \"DIOSMINA HESPERIDINA 450 50 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220813,
+    "error": null
+  },
+  {
+    "original_line": "19918906-2\tBUDESONIDA MICRONIZADA",
+    "original_code": "19918906-2",
+    "product_name": "BUDESONIDA MICRONIZADA",
+    "found_code": "{\n  \"codigo\": \"MD015356\",\n  \"descripcion\": \"BUDESONIDA MICRONIZADA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220799,
+    "error": null
+  },
+  {
+    "original_line": "20077272-7\tCAFEINA ANHIDRA",
+    "original_code": "20077272-7",
+    "product_name": "CAFEINA ANHIDRA",
+    "found_code": "{\n  \"codigo\": \"MD003559\",\n  \"descripcion\": \"DIPIRONA CAFEINA ANHIDRA ISOMETHEPTENO MUCATO 300 30 30 MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218761,
+    "error": null
+  },
+  {
+    "original_line": "20075766-5\tHIDROCLOROTIAZIDA",
+    "original_code": "20075766-5",
+    "product_name": "HIDROCLOROTIAZIDA",
+    "found_code": "{\n  \"codigo\": \"MD000134\",\n  \"descripcion\": \"HIDROCLOROTIAZIDA 25MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219267,
+    "error": null
+  },
+  {
+    "original_line": "20135121-1\tETORICOXIB",
+    "original_code": "20135121-1",
+    "product_name": "ETORICOXIB",
+    "found_code": "{\n  \"codigo\": \"MD002025\",\n  \"descripcion\": \"ETORICOXIB 60 MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219253,
+    "error": null
+  },
+  {
+    "original_line": "19930610-2\tALENDRONATO SODICO. EQUIVALENTE A ALENDRONATO ACIDO (ACIDO ALENDRONICO)",
+    "original_code": "19930610-2",
+    "product_name": "ALENDRONATO SODICO. EQUIVALENTE A ALENDRONATO ACIDO (ACIDO ALENDRONICO)",
+    "found_code": "{\n  \"codigo\": \"MD002099\",\n  \"descripcion\": \"ALENDRONATO SODICO 70MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219347,
+    "error": null
+  },
+  {
+    "original_line": "19977136-1\tMOMETASONA FUROATO MICRONIZADA",
+    "original_code": "19977136-1",
+    "product_name": "MOMETASONA FUROATO MICRONIZADA",
+    "found_code": "{\n  \"codigo\": \"MD002539\",\n  \"descripcion\": \"MOMETASONA FUROATO MICRONIZADA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219907,
+    "error": null
+  },
+  {
+    "original_line": "19999947-18\tTRIMEBUTINA MALEATO",
+    "original_code": "19999947-18",
+    "product_name": "TRIMEBUTINA MALEATO",
+    "found_code": "{\n  \"codigo\": \"MD006842\",\n  \"descripcion\": \"TRIMEBUTINA MALEATO SIMETICONA 200 120 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220038,
+    "error": null
+  },
+  {
+    "original_line": "20087761-2\tLACTULOSA( 66-67 %)EQUIVALENTE A LACTULOSA",
+    "original_code": "20087761-2",
+    "product_name": "LACTULOSA( 66-67 %)EQUIVALENTE A LACTULOSA",
+    "found_code": "{\n  \"codigo\": \"MD014607\",\n  \"descripcion\": \"LACTULOSA 667MG ML EQ A 3335MG 3 335G 5ML SUSPENSION ORAL FRASCO 240ML H\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220258,
+    "error": null
+  },
+  {
+    "original_line": "20214842\tEPS-LEUSYN PRO",
+    "original_code": "20214842",
+    "product_name": "EPS-LEUSYN PRO",
+    "found_code": "{\n  \"codigo\": \"MD013380\",\n  \"descripcion\": \"ALIMENTO FORMULA POLIMERICA EN POLVO CON CALORIAS PROTEINA LEUCINA AMINOACIDOS CARBOHIDRATOS LIPIDOS Y VITAMINA D POLVO ORAL SOBRE 40G WIPRO SIM\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220389,
+    "error": null
+  },
+  {
+    "original_line": "36241-3\tENOXAPARINA (CLEXANE) 40MG SOL INYEC JERINGA PRELLENADAX0.4ML",
+    "original_code": "36241-3",
+    "product_name": "ENOXAPARINA (CLEXANE) 40MG SOL INYEC JERINGA PRELLENADAX0.4ML",
+    "found_code": "{\n  \"codigo\": \"MD003846\",\n  \"descripcion\": \"ENOXAPARINA SODICA 40MG 0.4ML SOLUCION INYECTABLE CLEXANE\"\n}",
+    "tokens_used": 218767,
+    "error": null
+  },
+  {
+    "original_line": "20096310-1\tRELVAR® ELLIPTA® 100 MCG / 25 MCG POLVO PARA INHALACION INHALACION",
+    "original_code": "20096310-1",
+    "product_name": "RELVAR® ELLIPTA® 100 MCG / 25 MCG POLVO PARA INHALACION INHALACION",
+    "found_code": "{\n  \"codigo\": \"MD013192\",\n  \"descripcion\": \"FUROATO DE FLUTICASONA VILANTEROL 100 25 MCG POLVO PARA INHALAR 30 DOSIS RELVAR ELLIPTA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219108,
+    "error": null
+  },
+  {
+    "original_line": "19956212-2\tMALEATO DE TIMOLOL EQUIVALENTE A TIMOLOL 5 MG",
+    "original_code": "19956212-2",
+    "product_name": "MALEATO DE TIMOLOL EQUIVALENTE A TIMOLOL 5 MG",
+    "found_code": "{\n  \"codigo\": \"MD000620\",\n  \"descripcion\": \"TIMOLOL MALEATO 0 5 SOLUCION OFTALMICA 5ML\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219284,
+    "error": null
+  },
+  {
+    "original_line": "19951790-2\tHIALURONATO DE SODIO",
+    "original_code": "19951790-2",
+    "product_name": "HIALURONATO DE SODIO",
+    "found_code": "{\n  \"codigo\": \"MD002135\",\n  \"descripcion\": \"HIALURONATO DE SODIO 4 MG SOLUCION OFTALMICA FRASCO GOTERO 10ML\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219410,
+    "error": null
+  },
+  {
+    "original_line": "20018905-5\tACETATO DE MEDROXIPROGESTERONA",
+    "original_code": "20018905-5",
+    "product_name": "ACETATO DE MEDROXIPROGESTERONA",
+    "found_code": "{\n  \"codigo\": \"MD000198\",\n  \"descripcion\": \"MEDROXIPROGESTERONA ACETATO 50 MG ML SUSPENSION INYECTABLE\"\n}",
+    "tokens_used": 219387,
+    "error": null
+  },
+  {
+    "original_line": "19937307-1\tKETOCONAZOL",
+    "original_code": "19937307-1",
+    "product_name": "KETOCONAZOL",
+    "found_code": "{\n  \"codigo\": \"MD000296\",\n  \"descripcion\": \"KETOCONAZOL 200 MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220087,
+    "error": null
+  },
+  {
+    "original_line": "19994684-1\tCLOBETASOL 17 - PROPIONATO",
+    "original_code": "19994684-1",
+    "product_name": "CLOBETASOL 17 - PROPIONATO",
+    "found_code": "{\n  \"codigo\": \"MD001354\",\n  \"descripcion\": \"CLOBETASOL PROPIONATO 0.05G 100G EQ 0.05 CREMA TOPICA 30G\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219732,
+    "error": null
+  },
+  {
+    "original_line": "20072260-1\tTELMISARTÁN",
+    "original_code": "20072260-1",
+    "product_name": "TELMISARTÁN",
+    "found_code": "{\n  \"codigo\": \"MD001197\",\n  \"descripcion\": \"TELMISARTAN 80 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220731,
+    "error": null
+  },
+  {
+    "original_line": "19901852-2\tTELMISARTAN",
+    "original_code": "19901852-2",
+    "product_name": "TELMISARTAN",
+    "found_code": "{\n  \"codigo\": \"MD001197\",\n  \"descripcion\": \"TELMISARTAN 80 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218682,
+    "error": null
+  },
+  {
+    "original_line": "20028347-3\tCIPROFIBRATO",
+    "original_code": "20028347-3",
+    "product_name": "CIPROFIBRATO",
+    "found_code": "{\n  \"codigo\": \"MD001272\",\n  \"descripcion\": \"CIPROFIBRATO 100 MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219128,
+    "error": null
+  },
+  {
+    "original_line": "20145882-1\tETORICOXIB",
+    "original_code": "20145882-1",
+    "product_name": "ETORICOXIB",
+    "found_code": "{\n  \"codigo\": \"MD002025\",\n  \"descripcion\": \"ETORICOXIB 60MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219068,
+    "error": null
+  },
+  {
+    "original_line": "20057384-4\tLANSOPRAZOL",
+    "original_code": "20057384-4",
+    "product_name": "LANSOPRAZOL",
+    "found_code": "{\n  \"codigo\": \"MD000675\",\n  \"descripcion\": \"LANSOPRAZOL 30 MG CAPSULA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219326,
+    "error": null
+  },
+  {
+    "original_line": "19937957-7\tPOLIETILENGLICOL 400 NF",
+    "original_code": "19937957-7",
+    "product_name": "POLIETILENGLICOL 400 NF",
+    "found_code": "{\n  \"codigo\": \"MD003275\",\n  \"descripcion\": \"POLIETILENGLICOL 400 NF\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219843,
+    "error": null
+  },
+  {
+    "original_line": "20120348-6\tCLORTALIDONA",
+    "original_code": "20120348-6",
+    "product_name": "CLORTALIDONA",
+    "found_code": "{\n  \"codigo\": \"MD012536\",\n  \"descripcion\": \"CLORTALIDONA 25 MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219125,
+    "error": null
+  },
+  {
+    "original_line": "20104115-1\tVITAMINA D3",
+    "original_code": "20104115-1",
+    "product_name": "VITAMINA D3",
+    "found_code": "{\n  \"codigo\": \"MD010008\",\n  \"descripcion\": \"VITAMINA D3 1000 UI CAPSULA BLANDA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219706,
+    "error": null
+  },
+  {
+    "original_line": "150101\tENSURE CLINICAL ALIMENTO LIQUIDO BOTELLA 220ML",
+    "original_code": "150101",
+    "product_name": "ENSURE CLINICAL ALIMENTO LIQUIDO BOTELLA 220ML",
+    "found_code": "{\n  \"codigo\": \"MD018324\",\n  \"descripcion\": \"ALIMENTO POLIMERICO A BASE DE MACRONUTRIENTES VITAMINAS Y MINERALES PARA ADULTOS SUSPENSION ORAL 220ML ENSURE\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220383,
+    "error": null
+  },
+  {
+    "original_line": "19953067-1\tACIDO RETINOICO (TRETINOINA)",
+    "original_code": "19953067-1",
+    "product_name": "ACIDO RETINOICO (TRETINOINA)",
+    "found_code": "{\n  \"codigo\": \"MD001384\",\n  \"descripcion\": \"RETINOICO ACIDO TRETINOINA 0 025G 100G EQ 0 025 CREMA TOPICA 30G\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219030,
+    "error": null
+  },
+  {
+    "original_line": "19947216-12\tLATANOPROST",
+    "original_code": "19947216-12",
+    "product_name": "LATANOPROST",
+    "found_code": "{\n  \"codigo\": \"MD002740\",\n  \"descripcion\": \"LATANOPROST 50 MCG ML SOLUCION OFTALMICA 2 5ML\"\n}",
+    "tokens_used": 219061,
+    "error": null
+  },
+  {
+    "original_line": "20104049-7\tOMALIZUMAB",
+    "original_code": "20104049-7",
+    "product_name": "OMALIZUMAB",
+    "found_code": "{\n  \"codigo\": \"MD013514\",\n  \"descripcion\": \"OMALIZUMAB 150MG ML SOLUCION INYECTABLE JERINGA PRELLENADA 1ML XOLAIR\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219151,
+    "error": null
+  },
+  {
+    "original_line": "20104049-1\tOMALIZUMAB",
+    "original_code": "20104049-1",
+    "product_name": "OMALIZUMAB",
+    "found_code": "{\n  \"codigo\": \"MD013514\",\n  \"descripcion\": \"OMALIZUMAB 150MG ML SOLUCION INYECTABLE JERINGA PRELLENADA 1ML XOLAIR\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219535,
+    "error": null
+  },
+  {
+    "original_line": "19980603-5\tKETOCONAZOL",
+    "original_code": "19980603-5",
+    "product_name": "KETOCONAZOL",
+    "found_code": "{\n  \"codigo\": \"MD000296\",\n  \"descripcion\": \"KETOCONAZOL\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219321,
+    "error": null
+  },
+  {
+    "original_line": "20113430-14\tHIDROCODONA BITARTRATE",
+    "original_code": "20113430-14",
+    "product_name": "HIDROCODONA BITARTRATE",
+    "found_code": "{\n  \"codigo\": \"MD014972\",\n  \"descripcion\": \"HIDROCODONA BITARTRATO ACETAMINOFEN 10 325 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219915,
+    "error": null
+  },
+  {
+    "original_line": "20007664-2\tPOLIETILENGLICOL 400",
+    "original_code": "20007664-2",
+    "product_name": "POLIETILENGLICOL 400",
+    "found_code": "{\n  \"codigo\": \"MD003275\",\n  \"descripcion\": \"POLIETILENGLICOL 400 NF PROPILENGLICOL 4MG 3MG ML SOLUCION OFTALMICA 15ML\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220115,
+    "error": null
+  },
+  {
+    "original_line": "20173012-1\tADALAPENO",
+    "original_code": "20173012-1",
+    "product_name": "ADALAPENO",
+    "found_code": "{\n  \"codigo\": \"MD016898\",\n  \"descripcion\": \"ADAPALENO 01G100G GEL TOPICO 30G\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220032,
+    "error": null
+  },
+  {
+    "original_line": "20068385-15\tTELMISARTAN",
+    "original_code": "20068385-15",
+    "product_name": "TELMISARTAN",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 897596, Requested 107468. Please try again in 303ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20011348-2\t1.5 G DE CARBONATO DE CALCIO EQUIVALENTE A CALCIO",
+    "original_code": "20011348-2",
+    "product_name": "1.5 G DE CARBONATO DE CALCIO EQUIVALENTE A CALCIO",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 986291, Requested 107477. Please try again in 5.626s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "19964131-1\tCLINDAMICINA FOSFATO EQUIVALENTE A CLINDAMICINA",
+    "original_code": "19964131-1",
+    "product_name": "CLINDAMICINA FOSFATO EQUIVALENTE A CLINDAMICINA",
+    "found_code": "{\n  \"codigo\": \"MD000271\",\n  \"descripcion\": \"CLINDAMICINA FOSFATO 600MG 4ML 15 SOLUCION INYECTABLE\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219288,
+    "error": null
+  },
+  {
+    "original_line": "30969-5\tCARBONATO DE CALCIO",
+    "original_code": "30969-5",
+    "product_name": "CARBONATO DE CALCIO",
+    "found_code": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"codigo\": {\n      \"type\": \"string\",\n      \"description\": \"Código alfanumérico identificador del elemento\",\n      \"pattern\": \"^[A-Za-z0-9]+$\"\n    },\n    \"descripcion\": {\n      \"type\": \"string\",\n      \"description\": \"Descripción alfanumérica del elemento\",\n      \"pattern\": \"^[A-Za-z0-9\\\\s]+$\"\n    },\n    \"original_code\": {\n      \"type\": \"string\",\n      \"description\": \"Código original inmutable\",\n      \"const\": null\n    },\n    \"original_file\": {\n      \"type\": \"string\",\n      \"description\": \"Nombre o ruta del archivo original inmutable\",\n      \"const\": \"resources/NEPS_AUTO.xlsx\"\n    }\n  },\n  \"required\": [\n    \"codigo\",\n    \"descripcion\"\n  ],\n  \"codigo\": \"MD000042\",\n  \"descripcion\": \"CALCIO CARBONATO 1500MG EQ 600MG DE CALCIO TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219268,
+    "error": null
+  },
+  {
+    "original_line": "19940399-2\tIMIPRAMINA CLORHIDRATO",
+    "original_code": "19940399-2",
+    "product_name": "IMIPRAMINA CLORHIDRATO",
+    "found_code": "{\n  \"codigo\": \"MD000515\",\n  \"descripcion\": \"IMIPRAMINA CLORHIDRATO 10MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219206,
+    "error": null
+  },
+  {
+    "original_line": "209407-1\tTIBOLONA",
+    "original_code": "209407-1",
+    "product_name": "TIBOLONA",
+    "found_code": "{\n  \"codigo\": \"MD001445\",\n  \"descripcion\": \"TIBOLONA 2.5 MG (TABLETA)\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219260,
+    "error": null
+  },
+  {
+    "original_line": "20177839\tAGUJA PARA PLUMA DE INSULINA",
+    "original_code": "20177839",
+    "product_name": "AGUJA PARA PLUMA DE INSULINA",
+    "found_code": "{\n  \"codigo\": \"91010429\",\n  \"descripcion\": \"AGUJA PARA LAPICERO 31G X 5MM UNIDAD\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219333,
+    "error": null
+  },
+  {
+    "original_line": "19983585-1\tTACROLIMUS",
+    "original_code": "19983585-1",
+    "product_name": "TACROLIMUS",
+    "found_code": "{\n  \"codigo\": \"MD001405\",\n  \"descripcion\": \"TACROLIMUS 0 03G 100G EQ 0 03 UNGUENTO TOPICO 30G\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220363,
+    "error": null
+  },
+  {
+    "original_line": "20104457-1\tENTRESTO® 100 MG TABLETA CON CUBIERTA ENTERICA CON PELICULA ORAL",
+    "original_code": "20104457-1",
+    "product_name": "ENTRESTO® 100 MG TABLETA CON CUBIERTA ENTERICA CON PELICULA ORAL",
+    "found_code": "{\n  \"codigo\": \"MD012828\",\n  \"descripcion\": \"ENTRESTO 100 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218444,
+    "error": null
+  },
+  {
+    "original_line": "20177233-7\tRIVAROXABAN",
+    "original_code": "20177233-7",
+    "product_name": "RIVAROXABAN",
+    "found_code": "{\n  \"codigo\": \"MD008783\",\n  \"descripcion\": \"RIVAROXABAN 20 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219198,
+    "error": null
+  },
+  {
+    "original_line": "20102484-1\tBISOPROLOL FUMARATO",
+    "original_code": "20102484-1",
+    "product_name": "BISOPROLOL FUMARATO",
+    "found_code": "{\n  \"codigo\": \"MD001088\",\n  \"descripcion\": \"BISOPROLOL FUMARATO 5 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219075,
+    "error": null
+  },
+  {
+    "original_line": "170108\tINFATRINI POLVO LATA 400G",
+    "original_code": "170108",
+    "product_name": "INFATRINI POLVO LATA 400G",
+    "found_code": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"codigo\": \"MD011274\",\n    \"descripcion\": \"FORMULA PARA LACTANTES CON NECESIDADES ESPECIALES DE NUTRICION LACTEA CON HIERRO 400 MG POLVO INFATRINI\",\n    \"original_code\": null,\n    \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n  },\n  \"required\": [\n    \"codigo\",\n    \"descripcion\"\n  ]\n}",
+    "tokens_used": 219123,
+    "error": null
+  },
+  {
+    "original_line": "20047166-80\tVALSARTAN",
+    "original_code": "20047166-80",
+    "product_name": "VALSARTAN",
+    "found_code": "{\n  \"codigo\": \"MD001205\",\n  \"descripcion\": \"VALSARTAN 80 MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219507,
+    "error": null
+  },
+  {
+    "original_line": "20087855-1\tSUCRALFATO",
+    "original_code": "20087855-1",
+    "product_name": "SUCRALFATO",
+    "found_code": "{\n  \"codigo\": \"MD003760\",\n  \"descripcion\": \"SUCRALFATO 1G TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219772,
+    "error": null
+  },
+  {
+    "original_line": "19999393-2\tNISTATINA (EQUIVALENTE A 10 MILLONNES DE U.I.)",
+    "original_code": "19999393-2",
+    "product_name": "NISTATINA (EQUIVALENTE A 10 MILLONNES DE U.I.)",
+    "found_code": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"codigo\": \"MD011229\",\n    \"descripcion\": \"NISTATINA OXIDO DE ZINC 10MIU 20G 100G EQ 100000IU 200MG G CREMA 60G\",\n    \"original_code\": null,\n    \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n  },\n  \"required\": [\n    \"codigo\",\n    \"descripcion\"\n  ]\n}",
+    "tokens_used": 219774,
+    "error": null
+  },
+  {
+    "original_line": "33496-9\tAMOXICILINATRIHIDRATO PRECOMPACTADA 573.94 MG(EQUIVALENTE A AMOXICILINA BASE",
+    "original_code": "33496-9",
+    "product_name": "AMOXICILINATRIHIDRATO PRECOMPACTADA 573.94 MG(EQUIVALENTE A AMOXICILINA BASE",
+    "found_code": "{\n  \"codigo\": \"MD000227\",\n  \"descripcion\": \"AMOXICILINA 500 MG TABLETA O CAPSULA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219345,
+    "error": null
+  },
+  {
+    "original_line": "20080146-1\tDIENOGEST MICRONIZADO",
+    "original_code": "20080146-1",
+    "product_name": "DIENOGEST MICRONIZADO",
+    "found_code": "{\n  \"codigo\": \"MD008816\",\n  \"descripcion\": \"DIENOGEST MICRONIZADO 2 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219010,
+    "error": null
+  },
+  {
+    "original_line": "TCSI1\tPRODUCTO TCSI1",
+    "original_code": "TCSI1",
+    "product_name": "PRODUCTO TCSI1",
+    "found_code": "{\n  \"codigo\": \"NOENCONTRADO\",\n  \"descripcion\": \"Producto TCSI1 sin coincidencias\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219192,
+    "error": null
+  },
+  {
+    "original_line": "20029762-1\tMETOTREXATO DISODICO EQUIVALENTE A METOTREXATO BASE",
+    "original_code": "20029762-1",
+    "product_name": "METOTREXATO DISODICO EQUIVALENTE A METOTREXATO BASE",
+    "found_code": "{\n  \"codigo\": \"MD017798\",\n  \"descripcion\": \"METOTREXATO 1000MG 40ML EQ A 25MG ML SOLUCION INYECTABLE\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220121,
+    "error": null
+  },
+  {
+    "original_line": "19988571-7\tETINILESTRADIOL",
+    "original_code": "19988571-7",
+    "product_name": "ETINILESTRADIOL",
+    "found_code": "{\n  \"codigo\": \"MD000186\",\n  \"descripcion\": \"LEVONORGESTREL ETINILESTRADIOL 150 30MCG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219270,
+    "error": null
+  },
+  {
+    "original_line": "20093177-1\tETINILESTRADIOL",
+    "original_code": "20093177-1",
+    "product_name": "ETINILESTRADIOL",
+    "found_code": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"codigo\": \"MD000186\",\n    \"descripcion\": \"LEVONORGESTREL ETINILESTRADIOL 150 30 MCG TABLETA\",\n    \"original_code\": null,\n    \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n  },\n  \"required\": [\n    \"codigo\",\n    \"descripcion\"\n  ]\n}",
+    "tokens_used": 219747,
+    "error": null
+  },
+  {
+    "original_line": "20008603-9\tLEVOTIROXINA SODICA",
+    "original_code": "20008603-9",
+    "product_name": "LEVOTIROXINA SODICA",
+    "found_code": "{\n  \"codigo\": \"MD000215\",\n  \"descripcion\": \"LEVOTIROXINA SODICA 50 mcg TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219716,
+    "error": null
+  },
+  {
+    "original_line": "58027-1\tFOSFATO DE CODEINA",
+    "original_code": "58027-1",
+    "product_name": "FOSFATO DE CODEINA",
+    "found_code": "{\n  \"codigo\": \"MD011725\",\n  \"descripcion\": \"ACETAMINOFEN CODEINA FOSFATO 325 15 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220678,
+    "error": null
+  },
+  {
+    "original_line": "20080145-3\tETINILESTRADIOL MICRONIZADO",
+    "original_code": "20080145-3",
+    "product_name": "ETINILESTRADIOL MICRONIZADO",
+    "found_code": "{\n  \"codigo\": \"MD005206\",\n  \"descripcion\": \"ACETATO DE CLORMADINONA ETINILESTRADIOL 2 0.03MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 222216,
+    "error": null
+  },
+  {
+    "original_line": "20064394-2\t143 MCG DE MALEATO DE INDACATEROL EQUIVALENTE A INDACATEROL",
+    "original_code": "20064394-2",
+    "product_name": "143 MCG DE MALEATO DE INDACATEROL EQUIVALENTE A INDACATEROL",
+    "found_code": "{\n  \"codigo\": \"MD008317\",\n  \"descripcion\": \"INDACATEROL MALEATO 0 15 MG CAPSULA PARA INHALAR ONBRIZE\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219160,
+    "error": null
+  },
+  {
+    "original_line": "20056874-2\tPANTOPRAZOL SÓDICO SESQUIHIDRATADO 45.10MG EQUIVALENTE A PANTOPRAZOL BASE",
+    "original_code": "20056874-2",
+    "product_name": "PANTOPRAZOL SÓDICO SESQUIHIDRATADO 45.10MG EQUIVALENTE A PANTOPRAZOL BASE",
+    "found_code": "{\n  \"codigo\": \"MD006410\",\n  \"descripcion\": \"PANTOPRAZOL 40 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219610,
+    "error": null
+  },
+  {
+    "original_line": "19928855-1\tHIALURONATO DE SODIO",
+    "original_code": "19928855-1",
+    "product_name": "HIALURONATO DE SODIO",
+    "found_code": "{\n  \"codigo\": \"2\",\n  \"descripcion\": \"HIALURONATO DE SODIO\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219709,
+    "error": null
+  },
+  {
+    "original_line": "20251004-3\tCLARITROMICINA",
+    "original_code": "20251004-3",
+    "product_name": "CLARITROMICINA",
+    "found_code": "{\n  \"codigo\": \"MD001660\",\n  \"descripcion\": \"CLARITROMICINA 500 MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219191,
+    "error": null
+  },
+  {
+    "original_line": "21475-5\tCLOTRIMAZOL",
+    "original_code": "21475-5",
+    "product_name": "CLOTRIMAZOL",
+    "found_code": "{\n  \"codigo\": \"MD003636\",\n  \"descripcion\": \"CLOTRIMAZOL 1 POR CIENTO CREMA TOPICA 40G\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219779,
+    "error": null
+  },
+  {
+    "original_line": "19923975-1\tACIDO RETINOICO",
+    "original_code": "19923975-1",
+    "product_name": "ACIDO RETINOICO",
+    "found_code": "{\n  \"codigo\": \"MD000177\",\n  \"descripcion\": \"ACIDO RETINOICO\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220151,
+    "error": null
+  },
+  {
+    "original_line": "56604-1\tACETATO DE ALUMINIO 0.118G/100 ML LOCION TOPICA (EXTERNA)",
+    "original_code": "56604-1",
+    "product_name": "ACETATO DE ALUMINIO 0.118G/100 ML LOCION TOPICA (EXTERNA)",
+    "found_code": "{\n  \"codigo\": \"MD012754\",\n  \"descripcion\": \"ACETATO DE ALUMINIO 0 059G 100 ML LOCION TOPICA 120ML\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220697,
+    "error": null
+  },
+  {
+    "original_line": "19944461-17\tBETAMETASONA DIPROPIONATO + BETAMETASONA FOSFATO (5+2) MG/1ML",
+    "original_code": "19944461-17",
+    "product_name": "BETAMETASONA DIPROPIONATO + BETAMETASONA FOSFATO (5+2) MG/1ML",
+    "found_code": "{\n  \"codigo\": \"MD001539\",\n  \"descripcion\": \"BETAMETASONA FOSFATO BETAMETASONA ACETATO 2 5 MG 1 ML SUSPENSION INYECTABLE 1 ML DIPROFOS\"\n}",
+    "tokens_used": 221020,
+    "error": null
+  },
+  {
+    "original_line": "39641-1\tLORATADINA",
+    "original_code": "39641-1",
+    "product_name": "LORATADINA",
+    "found_code": "{\n  \"codigo\": \"MD000599\",\n  \"descripcion\": \"LORATADINA 10 MG TABLETA\"\n}",
+    "tokens_used": 218855,
+    "error": null
+  },
+  {
+    "original_line": "20156864-2\tDUPILUMAB",
+    "original_code": "20156864-2",
+    "product_name": "DUPILUMAB",
+    "found_code": "{\n  \"codigo\": \"MD015176\",\n  \"descripcion\": \"DUPILUMAB 300MG 2ML EQ A 150MG ML SOLUCION INYECTABLE JERINGA PRELLENADA 2ML\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219027,
+    "error": null
+  },
+  {
+    "original_line": "20212210-2\tÁCIDO POLIACRILICO (CARBOPOL 940)",
+    "original_code": "20212210-2",
+    "product_name": "ÁCIDO POLIACRILICO (CARBOPOL 940)",
+    "found_code": "{\n  \"codigo\": \"MD002768\",\n  \"descripcion\": \"ACIDO POLIACRILICO GEL OFTALMICO 200MG 100G EQ 2MG G 10G\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219282,
+    "error": null
+  },
+  {
+    "original_line": "20128168-1\tINSULINA GLARGINA",
+    "original_code": "20128168-1",
+    "product_name": "INSULINA GLARGINA",
+    "found_code": "{\n  \"codigo\": \"MD000833\",\n  \"descripcion\": \"INSULINA GLARGINA 100UI ML SUSPENSION INYECTABLE 10ML\"\n}",
+    "tokens_used": 219507,
+    "error": null
+  },
+  {
+    "original_line": "20093349-1\tCLORHIDRATO DE METFORMINA",
+    "original_code": "20093349-1",
+    "product_name": "CLORHIDRATO DE METFORMINA",
+    "found_code": "{\n  \"codigo\": \"MD000865\",\n  \"descripcion\": \"METFORMINA 500 MG TABLETA\"\n}",
+    "tokens_used": 220011,
+    "error": null
+  },
+  {
+    "original_line": "19970832-1\tCLOTRIMAZOL",
+    "original_code": "19970832-1",
+    "product_name": "CLOTRIMAZOL",
+    "found_code": "{\n  \"codigo\": \"MD003636\",\n  \"descripcion\": \"CLOTRIMAZOL 1 POR CIENTO CREMA TOPICA 40G\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220612,
+    "error": null
+  },
+  {
+    "original_line": "19929683-1\tGENTAMICINA SULFATO. EQUIVALENTE A GENTAMICINA",
+    "original_code": "19929683-1",
+    "product_name": "GENTAMICINA SULFATO. EQUIVALENTE A GENTAMICINA",
+    "found_code": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"codigo\": \"MD000280\",\n    \"descripcion\": \"GENTAMICINA SULFATO 40 MG 2ML SOLUCION INYECTABLE\",\n    \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n  },\n  \"required\": [\n    \"codigo\",\n    \"descripcion\"\n  ]\n}",
+    "tokens_used": 219885,
+    "error": null
+  },
+  {
+    "original_line": "20003378-1\tACIDO SALICILICO",
+    "original_code": "20003378-1",
+    "product_name": "ACIDO SALICILICO",
+    "found_code": "{\n  \"codigo\": \"MD015311\",\n  \"descripcion\": \"ACIDO SALICILICO ACIDO LACTICO SOLUCION TOPICA 10ML\"\n}",
+    "tokens_used": 220338,
+    "error": null
+  },
+  {
+    "original_line": "19960905-12\tVITAMINA A ACETATO",
+    "original_code": "19960905-12",
+    "product_name": "VITAMINA A ACETATO",
+    "found_code": "{\n  \"codigo\": \"MD000649\",\n  \"descripcion\": \"VITAMINA A ACETATO O PALMITATO 50000UI CAPSULA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218439,
+    "error": null
+  },
+  {
+    "original_line": "20016549-76\tACIDO VALPROICO",
+    "original_code": "20016549-76",
+    "product_name": "ACIDO VALPROICO",
+    "found_code": "{\n  \"codigo\": \"MD000479\",\n  \"descripcion\": \"VALPROICO ACIDO 250 MG TABLETA O CAPSULA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219327,
+    "error": null
+  },
+  {
+    "original_line": "20061399-17\tNIFEDIPINO",
+    "original_code": "20061399-17",
+    "product_name": "NIFEDIPINO",
+    "found_code": "{\n  \"codigo\": \"MD000151\",\n  \"descripcion\": \"NIFEDIPINO 30 MG TABLETA O CAPSULA DE LIBERACION PROGRAMADA LIBERACION 24 Y 12 HORAS\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218575,
+    "error": null
+  },
+  {
+    "original_line": "40133-1\tPERÓXIDO DEBENZOILOHIDRATADOEQUIVALENTEAPERÓXIDODEBENZOILOANHIDRO",
+    "original_code": "40133-1",
+    "product_name": "PERÓXIDO DEBENZOILOHIDRATADOEQUIVALENTEAPERÓXIDODEBENZOILOANHIDRO",
+    "found_code": "{\n  \"codigo\": \"MD001394\",\n  \"descripcion\": \"BENZOILO PEROXIDO 5G 100G EQ 5 GEL 60G\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219548,
+    "error": null
+  },
+  {
+    "original_line": "19992351-2\tROSUVASTATINA CALCICA EQUIVALENTE AROSUVASTATINA BASE",
+    "original_code": "19992351-2",
+    "product_name": "ROSUVASTATINA CALCICA EQUIVALENTE AROSUVASTATINA BASE",
+    "found_code": "{\n  \"codigo\": \"MD001266\",\n  \"descripcion\": \"ROSUVASTATINA 10 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219210,
+    "error": null
+  },
+  {
+    "original_line": "20019920-2\tROTIGOTINA",
+    "original_code": "20019920-2",
+    "product_name": "ROTIGOTINA",
+    "found_code": "{\n  \"codigo\": \"MD008904\",\n  \"descripcion\": \"ROTIGOTINA 6 MG 24 HORAS SISTEMA TRANSDERMICO\"\n}",
+    "tokens_used": 219246,
+    "error": null
+  },
+  {
+    "original_line": "54932-1\tACIDO ASCÓRBICO COMPRESION DIRECTA 97% 536 MG",
+    "original_code": "54932-1",
+    "product_name": "ACIDO ASCÓRBICO COMPRESION DIRECTA 97% 536 MG",
+    "found_code": "{\n  \"codigo\": \"MD000038\",\n  \"descripcion\": \"ASCORBICO ACIDO 500MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219207,
+    "error": null
+  },
+  {
+    "original_line": "20115222-8\tQUETIAPINA FUMARATO (115.14 MG)EQUIVALENTE A QUETIAPINA",
+    "original_code": "20115222-8",
+    "product_name": "QUETIAPINA FUMARATO (115.14 MG)EQUIVALENTE A QUETIAPINA",
+    "found_code": "{\n  \"codigo\": \"MD010702\",\n  \"descripcion\": \"QUETIAPINA 100MG TABLETA H\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219985,
+    "error": null
+  },
+  {
+    "original_line": "20077715-16\tSIMETICONA",
+    "original_code": "20077715-16",
+    "product_name": "SIMETICONA",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 923769, Requested 107468. Please try again in 1.874s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "219782-4\tFLUOXETINA CLORHIDRATO 0.447 GEQUIVALENTE A FLUOXETINA",
+    "original_code": "219782-4",
+    "product_name": "FLUOXETINA CLORHIDRATO 0.447 GEQUIVALENTE A FLUOXETINA",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 900195, Requested 107478. Please try again in 460ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20082013-3\tIVERMECTINA",
+    "original_code": "20082013-3",
+    "product_name": "IVERMECTINA",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 898713, Requested 107468. Please try again in 370ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20033133-2\tACIDO AZELÁICO",
+    "original_code": "20033133-2",
+    "product_name": "ACIDO AZELÁICO",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 898540, Requested 107469. Please try again in 360ms. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20526-2\tPROCICAR CALAMINA 5% +OXIDO DE ZINC 5% CREMA 60G",
+    "original_code": "20526-2",
+    "product_name": "PROCICAR CALAMINA 5% +OXIDO DE ZINC 5% CREMA 60G",
+    "found_code": "{\n  \"codigo\": \"MD004721\",\n  \"descripcion\": \"Calamina Oxido de Zinc Crema Topica 60G PROCICAR\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219148,
+    "error": null
+  },
+  {
+    "original_line": "20086917-3\tNAPROXENO SODICO EQUIVALENTE A NAPROXENO",
+    "original_code": "20086917-3",
+    "product_name": "NAPROXENO SODICO EQUIVALENTE A NAPROXENO",
+    "found_code": "{\n  \"codigo\": \"MD002040\",\n  \"descripcion\": \"NAPROXENO 500 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218952,
+    "error": null
+  },
+  {
+    "original_line": "20121038-2\tTELMISARTAN",
+    "original_code": "20121038-2",
+    "product_name": "TELMISARTAN",
+    "found_code": "{\n  \"codigo\": \"MD007618\",\n  \"descripcion\": \"TELMISARTAN 40 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220474,
+    "error": null
+  },
+  {
+    "original_line": "31067-1\tDESONIDA MICRONIZADA",
+    "original_code": "31067-1",
+    "product_name": "DESONIDA MICRONIZADA",
+    "found_code": "{\n  \"codigo\": \"MD011717\",\n  \"descripcion\": \"DESONIDA 005G 100G CREMA 15G\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219457,
+    "error": null
+  },
+  {
+    "original_line": "19959553-5\tADAPALENO",
+    "original_code": "19959553-5",
+    "product_name": "ADAPALENO",
+    "found_code": "{\n  \"codigo\": \"MD016898\",\n  \"descripcion\": \"ADAPALENO 0 1 G 100 G GEL TOPICO 30 G\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219516,
+    "error": null
+  },
+  {
+    "original_line": "1983837-5\tMETRONIDAZOL",
+    "original_code": "1983837-5",
+    "product_name": "METRONIDAZOL",
+    "found_code": "{\n  \"codigo\": \"MD000530\",\n  \"descripcion\": \"METRONIDAZOL 500 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219516,
+    "error": null
+  },
+  {
+    "original_line": "19961306-1\tBETAHISTINA DICLORHIDRATO",
+    "original_code": "19961306-1",
+    "product_name": "BETAHISTINA DICLORHIDRATO",
+    "found_code": "{\n  \"codigo\": \"MD002489\",\n  \"descripcion\": \"BETAHISTINA 16 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219522,
+    "error": null
+  },
+  {
+    "original_line": "19967422-1\tNISTATINAUI (EQUIVALENTE A 2272.7 MG DE NISTATINA CON POTENCIA MINIMA DE 400 UI/MG)",
+    "original_code": "19967422-1",
+    "product_name": "NISTATINAUI (EQUIVALENTE A 2272.7 MG DE NISTATINA CON POTENCIA MINIMA DE 400 UI/MG)",
+    "found_code": "{\n  \"codigo\": \"MD000299\",\n  \"descripcion\": \"NISTATINA 100000 UI ML SUSPENSION ORAL\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219996,
+    "error": null
+  },
+  {
+    "original_line": "19980565-1\tCLORHIDRATO DE METFORMINA",
+    "original_code": "19980565-1",
+    "product_name": "CLORHIDRATO DE METFORMINA",
+    "found_code": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"codigo\": \"MD000865\",\n    \"descripcion\": \"METFORMINA 500 MG TABLETA\",\n    \"original_code\": null,\n    \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n  },\n  \"required\": [\n    \"codigo\",\n    \"descripcion\"\n  ]\n}",
+    "tokens_used": 219868,
+    "error": null
+  },
+  {
+    "original_line": "19908041-1\tHIALURONATO DE SODIO",
+    "original_code": "19908041-1",
+    "product_name": "HIALURONATO DE SODIO",
+    "found_code": "{\n  \"codigo\": \"MD002135\",\n  \"descripcion\": \"HIALURONATO DE SODIO 4 MG SOLUCION OFTALMICA FRASCO GOTERO 10ML\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220114,
+    "error": null
+  },
+  {
+    "original_line": "217276-2\tDESONIDA",
+    "original_code": "217276-2",
+    "product_name": "DESONIDA",
+    "found_code": "{\n  \"codigo\": \"MD011717\",\n  \"descripcion\": \"DESONIDA 0 05G 100G EQ 0 05 CREMA 15G\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219965,
+    "error": null
+  },
+  {
+    "original_line": "19995245-2\tCLOTRIMAZOL",
+    "original_code": "19995245-2",
+    "product_name": "CLOTRIMAZOL",
+    "found_code": "{\n  \"codigo\": \"MD003636\",\n  \"descripcion\": \"CLOTRIMAZOL 1 POR CIENTO CREMA TOPICA 40G\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220804,
+    "error": null
+  },
+  {
+    "original_line": "19993161-8\tESTROGENOS CONJUGADOS",
+    "original_code": "19993161-8",
+    "product_name": "ESTROGENOS CONJUGADOS",
+    "found_code": "{\n  \"codigo\": \"MD000191\",\n  \"descripcion\": \"ESTROGENOS CONJUGADOS 0625MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218883,
+    "error": null
+  },
+  {
+    "original_line": "19949079-5\tCOMPRESSO PPY AL 68% EQUIVALENTE AFENAZOPIRIDINA.HCL",
+    "original_code": "19949079-5",
+    "product_name": "COMPRESSO PPY AL 68% EQUIVALENTE AFENAZOPIRIDINA.HCL",
+    "found_code": "{\n  \"codigo\": \"MD001492\",\n  \"descripcion\": \"FENAZOPIRIDINA CLORHIDRATO 200 MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219214,
+    "error": null
+  },
+  {
+    "original_line": "94321-1\tATROPINA SULFATO MONOHIDRATO",
+    "original_code": "94321-1",
+    "product_name": "ATROPINA SULFATO MONOHIDRATO",
+    "found_code": "{\n  \"codigo\": \"MD015336\",\n  \"descripcion\": \"ATROPINA SULFATO 10MG ML SOLUCION OFTALMICA FRASCO 5ML\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219409,
+    "error": null
+  },
+  {
+    "original_line": "20070341-4\tSULFATO DE ZINC MONOHIDRATO 54.8 MG EQUIVALENTE A ZINC ELEMENTAL",
+    "original_code": "20070341-4",
+    "product_name": "SULFATO DE ZINC MONOHIDRATO 54.8 MG EQUIVALENTE A ZINC ELEMENTAL",
+    "found_code": "{\n  \"codigo\": \"MD012331\",\n  \"descripcion\": \"SULFATO DE ZINC 20 MG TABLETA H\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219540,
+    "error": null
+  },
+  {
+    "original_line": "20075055-6\tROSUVASTATINA CALCICA EQUIVALENTE A ROSUVASTATINA",
+    "original_code": "20075055-6",
+    "product_name": "ROSUVASTATINA CALCICA EQUIVALENTE A ROSUVASTATINA",
+    "found_code": "{\n  \"codigo\": \"MD001266\",\n  \"descripcion\": \"ROSUVASTATINA 10 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218825,
+    "error": null
+  },
+  {
+    "original_line": "19942450-6\tCLORHIDRATO DESERTRALINAEQUIVALENTE ASERTRALINA BASE",
+    "original_code": "19942450-6",
+    "product_name": "CLORHIDRATO DESERTRALINAEQUIVALENTE ASERTRALINA BASE",
+    "found_code": "{\n  \"codigo\": \"MD002393\",\n  \"descripcion\": \"SERTRALINA 50 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219531,
+    "error": null
+  },
+  {
+    "original_line": "19944764-1\tCLOTRIMAZOL",
+    "original_code": "19944764-1",
+    "product_name": "CLOTRIMAZOL",
+    "found_code": "{\n  \"codigo\": \"MD003636\",\n  \"descripcion\": \"CLOTRIMAZOL\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219761,
+    "error": null
+  },
+  {
+    "original_line": "20122426-1\tCLORHIDRATO DE CIPROFLOXACINO EQUIVALENTE A CIPROFLOXACINO",
+    "original_code": "20122426-1",
+    "product_name": "CLORHIDRATO DE CIPROFLOXACINO EQUIVALENTE A CIPROFLOXACINO",
+    "found_code": "{\n  \"codigo\": \"MD000284\",\n  \"descripcion\": \"CIPROFLOXACINA CLORHIDRATO 500 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220378,
+    "error": null
+  },
+  {
+    "original_line": "19966420-4\tNIMODIPINO",
+    "original_code": "19966420-4",
+    "product_name": "NIMODIPINO",
+    "found_code": "{\n  \"codigo\": \"MD000152\",\n  \"descripcion\": \"NIMODIPINA 30 MG TABLETA O CAPSULA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218751,
+    "error": null
+  },
+  {
+    "original_line": "20066116-25\t44.5 MG DE ESOMEPRAZOL MAGNESICO TRIHIDRATO. EQUIVALENTE A ESOMEPRAZOL BASE",
+    "original_code": "20066116-25",
+    "product_name": "44.5 MG DE ESOMEPRAZOL MAGNESICO TRIHIDRATO. EQUIVALENTE A ESOMEPRAZOL BASE",
+    "found_code": "{\n  \"codigo\": \"MD007795\",\n  \"descripcion\": \"ESOMEPRAZOL 40 MG TABLETA DE LIBERACION RETARDADA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219680,
+    "error": null
+  },
+  {
+    "original_line": "20007744-3\tMOSAPRIDA CITRATO DIHIDRATO (EQUIVALENTE A 5 MG DE MOSAPRIDA CITRATO)",
+    "original_code": "20007744-3",
+    "product_name": "MOSAPRIDA CITRATO DIHIDRATO (EQUIVALENTE A 5 MG DE MOSAPRIDA CITRATO)",
+    "found_code": "{\n  \"codigo\": \"MD002810\",\n  \"descripcion\": \"MOSAPRIDA CITRATO 5MG TABLETA\"\n}",
+    "tokens_used": 219519,
+    "error": null
+  },
+  {
+    "original_line": "33492-13\tAMOXICILINA TRIHIDRATO MICRONIZADA 5.739 G(EQUIVALENTE A AMOXICILINA ANHIDRA",
+    "original_code": "33492-13",
+    "product_name": "AMOXICILINA TRIHIDRATO MICRONIZADA 5.739 G(EQUIVALENTE A AMOXICILINA ANHIDRA",
+    "found_code": "{\n  \"codigo\": \"MD000229\",\n  \"descripcion\": \"AMOXICILINA 250MG 5 ML SUSPENSION ORAL FRASCO 100ML\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219747,
+    "error": null
+  },
+  {
+    "original_line": "19998840-1\tCROMOGLICATO SODICO",
+    "original_code": "19998840-1",
+    "product_name": "CROMOGLICATO SODICO",
+    "found_code": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"codigo\": \"MD000563\",\n    \"descripcion\": \"CROMOGLICATO DE SODIO 2 SOLUCION NASAL\",\n    \"original_code\": null,\n    \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n  },\n  \"required\": [\n    \"codigo\",\n    \"descripcion\"\n  ]\n}",
+    "tokens_used": 220004,
+    "error": null
   }
 ]
