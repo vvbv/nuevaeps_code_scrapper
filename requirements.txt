@@ -1,0 +1,18 @@
+# OpenAI Excel Processor - Dependencies
+# =====================================
+
+# OpenAI API client
+openai>=1.12.0
+
+# Para trabajar con archivos Excel
+openpyxl>=3.1.0
+pandas>=2.0.0
+
+# Validación de JSON schemas (para extract_structured_data)
+jsonschema>=4.17.0
+
+# Requests para llamadas HTTP directas
+requests>=2.31.0
+
+# Para cargar variables de entorno desde .env
+python-dotenv>=1.0.0
