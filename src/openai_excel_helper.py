@@ -21,57 +21,64 @@ class OpenAIExcelProcessor:
     Permite mantener el contexto del archivo entre múltiples consultas.
     """
     
-    def __init__(self, api_key: str, model: str = "gpt-4o"):
+    def __init__(self, api_key: str, model: str = "gpt-5"):
         """
         Inicializa el procesador de Excel con OpenAI.
         
         Args:
             api_key: Clave API de OpenAI
-            model: Modelo a utilizar (por defecto gpt-4o que soporta archivos)
+            model: Modelo a utilizar (por defecto gpt-5 que soporta archivos)
         """
         self.api_key = api_key
         self.model = model
-        self.file_id = None
         self.file_path = None
+        self.df = None
+        self.num_rows = 0
+        self.num_cols = 0
+        self.columns = []
         self.conversation_messages = []
         
     def upload_excel_file(self, excel_path: str) -> str:
         """
-        Sube un archivo Excel a OpenAI para su procesamiento.
+        Carga un archivo Excel en memoria para su procesamiento.
+        Convierte el contenido a formato que la IA puede procesar.
         
         Args:
             excel_path: Ruta al archivo Excel
             
         Returns:
-            ID del archivo subido
+            Confirmación de carga
             
         Raises:
             FileNotFoundError: Si el archivo no existe
-            Exception: Si hay error en la subida
+            Exception: Si hay error en la carga
         """
         if not os.path.exists(excel_path):
             raise FileNotFoundError(f"Archivo Excel no encontrado: {excel_path}")
         
-        print(f"Subiendo archivo {excel_path} a OpenAI...")
+        print(f"Cargando archivo {excel_path}...")
         
         try:
-            # Usando la nueva API de OpenAI
-            client = openai.OpenAI(api_key=self.api_key)
+            import pandas as pd
             
-            with open(excel_path, "rb") as f:
-                file_response = client.files.create(
-                    file=f,
-                    purpose='assistants'
-                )
-            
-            self.file_id = file_response.id
+            # Leer el archivo Excel
+            self.df = pd.read_excel(excel_path)
             self.file_path = excel_path
             
-            print(f"Archivo subido exitosamente. File ID: {self.file_id}")
-            return self.file_id
+            # Obtener info básica
+            self.num_rows = len(self.df)
+            self.num_cols = len(self.df.columns)
+            self.columns = list(self.df.columns)
+            
+            print(f"Archivo cargado exitosamente:")
+            print(f"  - Filas: {self.num_rows}")
+            print(f"  - Columnas: {self.num_cols}")
+            print(f"  - Nombres: {', '.join(self.columns[:5])}{'...' if len(self.columns) > 5 else ''}")
+            
+            return f"loaded_{os.path.basename(excel_path)}"
             
         except Exception as e:
-            print(f"Error al subir archivo: {e}")
+            print(f"Error al cargar archivo: {e}")
             raise
     
     def query_excel(self, prompt: str, temperature: float = 0.3) -> Dict[str, Any]:
@@ -88,13 +95,41 @@ class OpenAIExcelProcessor:
         Raises:
             ValueError: Si no hay archivo cargado
         """
-        if not self.file_id:
+        if not hasattr(self, 'df') or self.df is None:
             raise ValueError("No hay archivo Excel cargado. Usa upload_excel_file() primero.")
         
-        print(f"Consultando sobre el archivo...")
-        
         try:
-            client = openai.OpenAI(api_key=self.api_key)
+            # Preparar el contenido del Excel (limitar si es muy grande)
+            if self.num_rows > 100:
+                sample_df = self.df.head(100)
+                csv_content = sample_df.to_csv(index=False)
+                content_note = f"\nNOTA: El archivo tiene {self.num_rows} filas, pero solo se muestran las primeras 100 para análisis."
+            else:
+                csv_content = self.df.to_csv(index=False)
+                content_note = ""
+            
+            # Preparar el contexto del archivo
+            file_context = f"""Información del archivo Excel:
+- Total de filas: {self.num_rows}
+- Total de columnas: {self.num_cols}
+- Columnas: {', '.join(self.columns)}
+
+Contenido (formato CSV):
+```
+{csv_content}
+```
+{content_note}"""
+            
+            # Añadir el contexto del archivo solo en la primera consulta
+            if len(self.conversation_messages) == 0:
+                self.conversation_messages.append({
+                    "role": "user",
+                    "content": f"{file_context}\n\nArchivo cargado. Estoy listo para responder preguntas."
+                })
+                self.conversation_messages.append({
+                    "role": "assistant",
+                    "content": "Entendido. He analizado el archivo Excel. ¿Qué deseas saber?"
+                })
             
             # Añadir el mensaje del usuario al historial
             self.conversation_messages.append({
@@ -103,13 +138,16 @@ class OpenAIExcelProcessor:
             })
             
             # Hacer la consulta con el contexto del archivo
+            client = openai.OpenAI(api_key=self.api_key)
+            
             response = client.chat.completions.create(
                 model=self.model,
                 messages=[
                     {
                         "role": "system",
                         "content": "Eres un asistente experto en analizar archivos Excel. "
-                                   "Respondes de manera precisa y estructurada basándote en los datos del archivo."
+                                   "Respondes de manera precisa y estructurada basándote en los datos del archivo. "
+                                   "El usuario te ha proporcionado el contenido completo del archivo."
                     }
                 ] + self.conversation_messages,
                 temperature=temperature
@@ -139,9 +177,9 @@ class OpenAIExcelProcessor:
                 "error": str(e)
             }
     
-    def query_with_excel_content(self, excel_path: str, prompt: str, temperature: float = 0.3) -> Dict[str, Any]:
+    def query_with_excel_content(self, excel_path: str, prompt: str, temperature: float = 1) -> Dict[str, Any]:
         """
-        Procesa un archivo Excel directamente enviando su contenido en base64.
+        Procesa un archivo Excel directamente convirtiendo su contenido a texto.
         Útil para archivos pequeños o consultas únicas.
         
         Args:
@@ -158,23 +196,49 @@ class OpenAIExcelProcessor:
         print(f"Procesando {excel_path} con OpenAI...")
         
         try:
-            # Leer el archivo y convertir a base64
-            with open(excel_path, "rb") as f:
-                excel_bytes = f.read()
+            # Leer el archivo Excel con pandas
+            import pandas as pd
             
-            excel_base64 = base64.b64encode(excel_bytes).decode("utf-8")
+            # Leer el Excel
+            df = pd.read_excel(excel_path)
             
-            # Usar la API de responses (nueva versión)
-            url = "https://api.openai.com/v1/chat/completions"
-            headers = {
-                "Content-Type": "application/json",
-                "Authorization": f"Bearer {self.api_key}"
-            }
+            # Convertir a CSV string (más fácil de procesar por la IA)
+            csv_content = df.to_csv(index=False)
             
-            payload = {
-                "model": self.model,
-                "temperature": temperature,
-                "messages": [
+            # Obtener info básica
+            num_rows = len(df)
+            num_cols = len(df.columns)
+            columns = list(df.columns)
+            
+            # Limitar el contenido si es muy grande (primeras 100 filas)
+            if num_rows > 100:
+                sample_df = df.head(100)
+                csv_content = sample_df.to_csv(index=False)
+                content_note = f"\nNOTA: El archivo tiene {num_rows} filas, pero solo se muestran las primeras 100 para análisis."
+            else:
+                content_note = ""
+            
+            # Preparar el prompt con el contenido del Excel
+            full_prompt = f"""Analiza el siguiente archivo Excel que tiene {num_rows} filas y {num_cols} columnas.
+Columnas: {', '.join(columns)}
+
+Contenido del archivo (formato CSV):
+```
+{csv_content}
+```
+{content_note}
+
+Pregunta del usuario: {prompt}
+
+Responde basándote en los datos proporcionados."""
+            
+            # Usar la API de OpenAI
+            client = openai.OpenAI(api_key=self.api_key)
+            
+            response = client.chat.completions.create(
+                model=self.model,
+                temperature=temperature,
+                messages=[
                     {
                         "role": "system",
                         "content": "Eres un asistente experto en analizar archivos Excel. "
@@ -182,32 +246,18 @@ class OpenAIExcelProcessor:
                     },
                     {
                         "role": "user",
-                        "content": [
-                            {
-                                "type": "text",
-                                "text": prompt
-                            }
-                        ]
+                        "content": full_prompt
                     }
                 ]
-            }
+            )
             
-            response = requests.post(url, headers=headers, json=payload)
-            result = response.json()
-            
-            if "error" in result:
-                return {
-                    "success": False,
-                    "error": result["error"]
-                }
-            
-            assistant_message = result["choices"][0]["message"]["content"]
+            assistant_message = response.choices[0].message.content
             
             return {
                 "success": True,
                 "response": assistant_message,
                 "model": self.model,
-                "total_tokens": result["usage"]["total_tokens"]
+                "total_tokens": response.usage.total_tokens
             }
             
         except Exception as e:
@@ -233,7 +283,7 @@ class OpenAIExcelProcessor:
 
 
 def simple_excel_query(api_key: str, excel_path: str, prompt: str, 
-                       model: str = "gpt-4o", temperature: float = 0.3) -> Dict[str, Any]:
+                       model: str = "gpt-4o", temperature: float = 1) -> Dict[str, Any]:
     """
     Función simple para hacer una consulta única sobre un archivo Excel.
     
@@ -301,7 +351,7 @@ Debes responder ÚNICAMENTE con un JSON válido que cumpla con el siguiente sche
 No incluyas explicaciones adicionales, solo el JSON.
 """
     
-    result = processor.query_with_excel_content(excel_path, prompt, temperature=0)
+    result = processor.query_with_excel_content(excel_path, prompt, temperature=1)
     
     if not result["success"]:
         return result
