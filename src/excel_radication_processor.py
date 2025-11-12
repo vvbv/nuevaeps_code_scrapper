@@ -36,92 +36,87 @@ class ExcelRadicationProcessor:
         
         return True
     
-    def extract_invoices_from_excel(
+    def extract_medicine_codes_from_excel(
         self, 
         excel_path: str, 
         max_retries: int = 3
     ) -> Optional[Dict[str, Any]]:
         """
-        Extrae facturas de un archivo Excel con reintentos.
-        Similar a la extracción de datos médicos en Distri-Hub.
+        Extrae códigos de medicamentos de un archivo Excel con reintentos.
+        Busca el código MD más similar basado en principio activo y concentración.
         
         Args:
             excel_path: Ruta al archivo Excel
             max_retries: Número máximo de intentos
             
         Returns:
-            Diccionario con las facturas extraídas o None si falla
+            Diccionario con los códigos extraídos o None si falla
         """
         
-        # Schema para validar la respuesta (similar a MEDICAL_DATA_JSON_SCHEMA)
+        # Schema para validar la respuesta
         schema = {
             "type": "object",
-            "required": ["facturas", "resumen"],
+            "required": ["medicamentos"],
             "properties": {
-                "facturas": {
+                "medicamentos": {
                     "type": "array",
                     "minItems": 1,
                     "items": {
                         "type": "object",
-                        "required": ["numero_factura", "nit_cliente", "valor_total"],
+                        "required": ["principio_activo", "concentracion", "codigo_md"],
                         "properties": {
-                            "numero_factura": {
+                            "principio_activo": {
+                                "type": "string"
+                            },
+                            "concentracion": {
+                                "type": "string"
+                            },
+                            "codigo_md": {
                                 "type": "string",
-                                "pattern": "^[A-Z0-9\\-]+$"
-                            },
-                            "nit_cliente": {
-                                "type": "string",
-                                "pattern": "^[0-9]{6,15}$"
-                            },
-                            "valor_total": {
-                                "type": "number",
-                                "minimum": 0
-                            },
-                            "fecha": {"type": "string"},
-                            "items": {
-                                "type": "array",
-                                "items": {
-                                    "type": "object",
-                                    "properties": {
-                                        "descripcion": {"type": "string"},
-                                        "cantidad": {"type": "integer"},
-                                        "valor_unitario": {"type": "number"}
-                                    }
-                                }
+                                "pattern": "^MD[0-9]{6}$"
                             }
                         }
-                    }
-                },
-                "resumen": {
-                    "type": "object",
-                    "properties": {
-                        "total_facturas": {"type": "integer"},
-                        "valor_total_general": {"type": "number"}
                     }
                 }
             }
         }
         
         instructions = """
-Analiza el archivo Excel que contiene facturas y extrae la siguiente información:
+Analiza el archivo Excel que contiene medicamentos con principios activos y concentraciones.
 
-1. Lista de todas las facturas con:
-   - Número de factura (debe ser alfanumérico, ej: FAC-001, 12345)
-   - NIT del cliente (solo números, entre 6 y 15 dígitos)
-   - Valor total de la factura
-   - Fecha de la factura (si está disponible)
-   - Items de la factura (descripción, cantidad, valor unitario)
+Para cada medicamento, debes buscar el código MD más similar del rango MD000001 a MD999999.
 
-2. Resumen con:
-   - Total de facturas encontradas
-   - Valor total general (suma de todas las facturas)
+IMPORTANTE - CONCENTRACIONES:
+1. Las concentraciones pueden estar escritas de diferentes formas pero ser equivalentes:
+   - "6.5mg" es equivalente a "6.500000mg"
+   - "0.5g" es equivalente a "500mg"
+   
+2. Cuando hay concentraciones como suma (ej: "6.5mg + 2.5mg"):
+   - NO significa buscar la suma (9mg)
+   - Significa buscar un producto que tenga AMBAS concentraciones: 6.5mg Y 2.5mg
+   - El producto debe tener exactamente esas dos concentraciones por separado
 
-IMPORTANTE:
-- Si un número de factura no es válido o un NIT tiene menos de 6 dígitos, usa valores por defecto
-- Asegúrate de que cada factura tenga al menos: número, NIT y valor
-- El JSON debe cumplir EXACTAMENTE con el schema proporcionado
+3. Presta ESPECIAL atención a:
+   - Los números decimales (6.5 vs 6.500000 son iguales)
+   - Las unidades de medida (mg, g, ml, etc.)
+   - Los ceros insignificantes
+   
+4. Si hay múltiples principios activos separados por "+", cada uno tiene su concentración.
 
-Devuelve SOLO el JSON, sin explicaciones adicionales.
+FORMATO DE RESPUESTA:
+Devuelve SOLO un JSON con este formato exacto:
+{
+  "medicamentos": [
+    {
+      "principio_activo": "nombre del principio activo del excel",
+      "concentracion": "concentración exacta del excel",
+      "codigo_md": "MDxxxxxx"
+    }
+  ]
+}
+
+El código_md debe estar en el rango MD000001 a MD999999.
+NO agregues explicaciones, SOLO el JSON.
 """
         
         current_try = 0
@@ -146,27 +141,27 @@ Devuelve SOLO el JSON, sin explicaciones adicionales.
                 if result["success"]:
                     data = result["data"]
                     
-                    # Validar que haya al menos una factura válida
-                    facturas = data.get("facturas", [])
-                    if len(facturas) > 0:
-                        print(f"✓ Extracción exitosa: {len(facturas)} facturas encontradas")
+                    # Validar que haya al menos un medicamento válido
+                    medicamentos = data.get("medicamentos", [])
+                    if len(medicamentos) > 0:
+                        print(f"✓ Extracción exitosa: {len(medicamentos)} medicamentos encontrados")
                         
-                        # Validar NITs
-                        invalid_nits = [
-                            f["numero_factura"] 
-                            for f in facturas 
-                            if len(f.get("nit_cliente", "")) < 6
+                        # Validar códigos MD
+                        invalid_codes = [
+                            m["principio_activo"] 
+                            for m in medicamentos 
+                            if not (m.get("codigo_md", "").startswith("MD") and len(m.get("codigo_md", "")) == 8)
                         ]
                         
-                        if invalid_nits:
-                            print(f"⚠ Advertencia: {len(invalid_nits)} NITs inválidos, reintentando...")
+                        if invalid_codes:
+                            print(f"⚠ Advertencia: {len(invalid_codes)} códigos MD inválidos, reintentando...")
                             current_try += 1
-                            time.sleep(2)  # Esperar antes de reintentar
+                            time.sleep(2)
                             continue
                         
                         break
                     else:
-                        print("⚠ No se encontraron facturas válidas, reintentando...")
+                        print("⚠ No se encontraron medicamentos válidos, reintentando...")
                         current_try += 1
                         time.sleep(2)
                         continue
@@ -183,13 +178,9 @@ Devuelve SOLO el JSON, sin explicaciones adicionales.
         
         if not data:
             print(f"\n✗ No se pudo procesar el archivo después de {max_retries} intentos")
-            # Valores por defecto (similar a Distri-Hub)
+            # Valores por defecto
             data = {
-                "facturas": [],
-                "resumen": {
-                    "total_facturas": 0,
-                    "valor_total_general": 0
-                }
+                "medicamentos": []
             }
             print("⚠ Usando datos por defecto vacíos")
         
@@ -216,7 +207,7 @@ Devuelve SOLO el JSON, sin explicaciones adicionales.
             os.makedirs(output_dir)
         
         total_processed = 0
-        total_facturas = 0
+        total_medicamentos = 0
         failed_files = []
         
         print(f"\n{'='*80}")
@@ -233,11 +224,11 @@ Devuelve SOLO el JSON, sin explicaciones adicionales.
             
             try:
                 # Extraer datos
-                data = self.extract_invoices_from_excel(excel_file)
+                data = self.extract_medicine_codes_from_excel(excel_file)
                 
-                if data and len(data.get("facturas", [])) > 0:
-                    facturas = data["facturas"]
-                    total_facturas += len(facturas)
+                if data and len(data.get("medicamentos", [])) > 0:
+                    medicamentos = data["medicamentos"]
+                    total_medicamentos += len(medicamentos)
                     
                     # Guardar resultado
                     import json
@@ -250,8 +241,7 @@ Devuelve SOLO el JSON, sin explicaciones adicionales.
                         json.dump(data, f, indent=2, ensure_ascii=False)
                     
                     print(f"✓ Guardado en: {output_file}")
-                    print(f"  - Facturas: {len(facturas)}")
-                    print(f"  - Valor total: ${data['resumen']['valor_total_general']:,.2f}")
+                    print(f"  - Medicamentos procesados: {len(medicamentos)}")
                     
                     total_processed += 1
                 else:
@@ -267,7 +257,7 @@ Devuelve SOLO el JSON, sin explicaciones adicionales.
         print("RESUMEN DEL PROCESAMIENTO")
         print(f"{'='*80}")
         print(f"Archivos procesados exitosamente: {total_processed}/{len(excel_files)}")
-        print(f"Total de facturas extraídas: {total_facturas}")
+        print(f"Total de medicamentos procesados: {total_medicamentos}")
         print(f"Archivos con errores: {len(failed_files)}")
         
         if failed_files:
@@ -278,7 +268,7 @@ Devuelve SOLO el JSON, sin explicaciones adicionales.
         return {
             "total_files": len(excel_files),
             "processed": total_processed,
-            "total_invoices": total_facturas,
+            "total_medicines": total_medicamentos,
             "failed_files": failed_files
         }
 
@@ -289,7 +279,7 @@ def main():
     import argparse
     
     parser = argparse.ArgumentParser(
-        description="Procesador de archivos Excel para radicación"
+        description="Procesador de archivos Excel para identificación de códigos MD de medicamentos"
     )
     parser.add_argument(
         "excel_files",
