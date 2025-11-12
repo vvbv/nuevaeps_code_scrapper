@@ -6976,5 +6976,633 @@
     "found_code": "{\n  \"codigo\": \"MD004822\",\n  \"descripcion\": \"ACETATO DE ALUMINIO 005G100G CREMA 60G ACID MANTLE\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
     "tokens_used": 220814,
     "error": null
+  },
+  {
+    "original_line": "20123643-17\tLOSARTAN POTASICO",
+    "original_code": "20123643-17",
+    "product_name": "LOSARTAN POTASICO",
+    "found_code": "{\n  \"codigo\": \"MD000161\",\n  \"descripcion\": \"LOSARTAN 50 MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219252,
+    "error": null
+  },
+  {
+    "original_line": "20044691-4\tPREGABALINA",
+    "original_code": "20044691-4",
+    "product_name": "PREGABALINA",
+    "found_code": "{\n  \"codigo\": \"2\",\n  \"descripcion\": \"PREGABALINA 300MG CAPSULA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218490,
+    "error": null
+  },
+  {
+    "original_line": "19933626-2\tACIDO POLIACRÍLICO",
+    "original_code": "19933626-2",
+    "product_name": "ACIDO POLIACRÍLICO",
+    "found_code": "{\n  \"codigo\": \"MD002768\",\n  \"descripcion\": \"ACIDO POLIACRILICO GEL OFTALMICO 200MG 100G EQ 2MG G 10G\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219602,
+    "error": null
+  },
+  {
+    "original_line": "20047165-5\tAMLODIPINO BESILATO 6.940 MG EQUIVALENTE A AMLODIPINO BASE",
+    "original_code": "20047165-5",
+    "product_name": "AMLODIPINO BESILATO 6.940 MG EQUIVALENTE A AMLODIPINO BASE",
+    "found_code": "{\n  \"codigo\": \"MD000150\",\n  \"descripcion\": \"AMLODIPINO 5 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219148,
+    "error": null
+  },
+  {
+    "original_line": "19987943-8\tEUTIROX® 137 MCG  LEVOTIROXINA SODICA",
+    "original_code": "19987943-8",
+    "product_name": "EUTIROX® 137 MCG  LEVOTIROXINA SODICA",
+    "found_code": "{\n  \"codigo\": \"MD008689\",\n  \"descripcion\": \"LEVOTIROXINA SODICA 137 MCG TABLETA EUTIROX\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219346,
+    "error": null
+  },
+  {
+    "original_line": "1980588-1\tGUAYACOLATO DE GLICERILO",
+    "original_code": "1980588-1",
+    "product_name": "GUAYACOLATO DE GLICERILO",
+    "found_code": "{\n  \"codigo\": \"MD015480\",\n  \"descripcion\": \"GUAYACOLATO DE GLICERILO 10MG 5ML JARABE 120ML\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219469,
+    "error": null
+  },
+  {
+    "original_line": "47792-1\tACIDO VALPROICO",
+    "original_code": "47792-1",
+    "product_name": "ACIDO VALPROICO",
+    "found_code": "{\n  \"codigo\": \"MD000479\",\n  \"descripcion\": \"ACIDO VALPROICO 250 MG TABLETA O CAPSULA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219902,
+    "error": null
+  },
+  {
+    "original_line": "19919130-1\tCIPROFLOXACINA BASE",
+    "original_code": "19919130-1",
+    "product_name": "CIPROFLOXACINA BASE",
+    "found_code": "{\n  \"codigo\": \"MD015373\",\n  \"descripcion\": \"CIPROFLOXACINA 3MG ML SOLUCION OFTALMICA 5ML\"\n}",
+    "tokens_used": 219896,
+    "error": null
+  },
+  {
+    "original_line": "19976921-1\tTERBINAFINA TABLETAS 250 MG",
+    "original_code": "19976921-1",
+    "product_name": "TERBINAFINA TABLETAS 250 MG",
+    "found_code": "{\n  \"codigo\": \"MD001308\",\n  \"descripcion\": \"TERBINAFINA 250MG TABLETA\"\n}",
+    "tokens_used": 218604,
+    "error": null
+  },
+  {
+    "original_line": "20096371-25\tBISOPROLOL FUMARATO",
+    "original_code": "20096371-25",
+    "product_name": "BISOPROLOL FUMARATO",
+    "found_code": "{\n  \"codigo\": \"MD001084\",\n  \"descripcion\": \"BISOPROLOL FUMARATO 10 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219331,
+    "error": null
+  },
+  {
+    "original_line": "19928652-1\tDIPIRONA",
+    "original_code": "19928652-1",
+    "product_name": "DIPIRONA",
+    "found_code": "{\n  \"codigo\": \"MD002166\",\n  \"descripcion\": \"DIPIRONA 500 MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219378,
+    "error": null
+  },
+  {
+    "original_line": "19987145-9\tOLOPATADINA CLORHIDRATO 2.2200 MG ( EQUIVALENTE A OLOPATADINABASE)",
+    "original_code": "19987145-9",
+    "product_name": "OLOPATADINA CLORHIDRATO 2.2200 MG ( EQUIVALENTE A OLOPATADINABASE)",
+    "found_code": "{\n  \"codigo\": \"MD003397\",\n  \"descripcion\": \"OLOPATADINA 2MG ML EQ 0 2 SOLUCION OFTALMICA 5ML\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218916,
+    "error": null
+  },
+  {
+    "original_line": "20004631-1\tSUCRALFATO",
+    "original_code": "20004631-1",
+    "product_name": "SUCRALFATO",
+    "found_code": "{\n  \"codigo\": \"MD003760\",\n  \"descripcion\": \"SUCRALFATO 1G TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219132,
+    "error": null
+  },
+  {
+    "original_line": "19997076-3\tNISTATINA",
+    "original_code": "19997076-3",
+    "product_name": "NISTATINA",
+    "found_code": "{\n  \"codigo\": \"MD000299\",\n  \"descripcion\": \"NISTATINA 100000 UI mL SUSPENSION ORAL\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219328,
+    "error": null
+  },
+  {
+    "original_line": "TCSI3\tPRODUCTO DE PRUEBA",
+    "original_code": "TCSI3",
+    "product_name": "PRODUCTO DE PRUEBA",
+    "found_code": "{\n  \"codigo\": \"NOENCONTRADO\",\n  \"descripcion\": \"PRODUCTO DE PRUEBA NO ENCONTRADO\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219197,
+    "error": null
+  },
+  {
+    "original_line": "20149185-2\tBRIVARACETAM",
+    "original_code": "20149185-2",
+    "product_name": "BRIVARACETAM",
+    "found_code": "{\n  \"codigo\": \"MD017331\",\n  \"descripcion\": \"BRIVARACETAM 50MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219390,
+    "error": null
+  },
+  {
+    "original_line": "20013130-1\tBECLOMETASONA DIPROPIONATO",
+    "original_code": "20013130-1",
+    "product_name": "BECLOMETASONA DIPROPIONATO",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 939114, Requested 107472. Please try again in 2.795s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20103833-6\tNISTATINA",
+    "original_code": "20103833-6",
+    "product_name": "NISTATINA",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 938044, Requested 107467. Please try again in 2.73s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "19960160-12\tERITROPOYETINA RECOMBINANTE HUMANA",
+    "original_code": "19960160-12",
+    "product_name": "ERITROPOYETINA RECOMBINANTE HUMANA",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 934197, Requested 107474. Please try again in 2.5s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "19941776-6\tVALSARTÁN",
+    "original_code": "19941776-6",
+    "product_name": "VALSARTÁN",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 925513, Requested 107468. Please try again in 1.978s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20173530-6\tSELEXIPAG",
+    "original_code": "20173530-6",
+    "product_name": "SELEXIPAG",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 922205, Requested 107467. Please try again in 1.78s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20204736-1\tACIDO ZOLEDRÓNICO MONOHIDRATO EQUIVALENTE A ACIDO ZOLEDRONICO",
+    "original_code": "20204736-1",
+    "product_name": "ACIDO ZOLEDRÓNICO MONOHIDRATO EQUIVALENTE A ACIDO ZOLEDRONICO",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 921942, Requested 107481. Please try again in 1.765s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20136180-3\tMETILPREDNISOLONA",
+    "original_code": "20136180-3",
+    "product_name": "METILPREDNISOLONA",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 919518, Requested 107469. Please try again in 1.619s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "139-TUM\tPAÑAL DESECHABLE TENA SLIP ULTRA TALLA M",
+    "original_code": "139-TUM",
+    "product_name": "PAÑAL DESECHABLE TENA SLIP ULTRA TALLA M",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 918643, Requested 107475. Please try again in 1.567s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "19950452-90\tCLENOX ENOXAPARINA SODICA 60ML/0,6ML",
+    "original_code": "19950452-90",
+    "product_name": "CLENOX ENOXAPARINA SODICA 60ML/0,6ML",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 1000000, Requested 107474. Please try again in 6.448s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20014965-3\tCERTOLIZUMABPEGOL",
+    "original_code": "20014965-3",
+    "product_name": "CERTOLIZUMABPEGOL",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 1000000, Requested 107469. Please try again in 6.448s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20020975-3\tBETAMETASONA SODIO FOSFATO EQUIVALENTE A BETAMETASONA BASE",
+    "original_code": "20020975-3",
+    "product_name": "BETAMETASONA SODIO FOSFATO EQUIVALENTE A BETAMETASONA BASE",
+    "found_code": "{\n  \"codigo\": \"MD000207\",\n  \"descripcion\": \"BETAMETASONA FOSFATO DISODICO 4MG ML SOLUCION INYECTABLE\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218971,
+    "error": null
+  },
+  {
+    "original_line": "20001974-6\tSUCCINATO DE DESVENLAFAXINA 75.87 EQUIVALENTE A DESVENLAFAXINA",
+    "original_code": "20001974-6",
+    "product_name": "SUCCINATO DE DESVENLAFAXINA 75.87 EQUIVALENTE A DESVENLAFAXINA",
+    "found_code": "{\n  \"codigo\": \"MD007757\",\n  \"descripcion\": \"DESVENLAFAXINA 50MG TABLETA DE LIBERACION PROLONGADA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218713,
+    "error": null
+  },
+  {
+    "original_line": "20076858\tNUTRIBEN HIDROLIZADA 2",
+    "original_code": "20076858",
+    "product_name": "NUTRIBEN HIDROLIZADA 2",
+    "found_code": "{\n  \"codigo\": \"MD011650\",\n  \"descripcion\": \"NUTRIBEN HIDROLIZADA 2\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219137,
+    "error": null
+  },
+  {
+    "original_line": "20173530-1\tSELEXIPAG",
+    "original_code": "20173530-1",
+    "product_name": "SELEXIPAG",
+    "found_code": "{\n  \"codigo\": \"NA\",\n  \"descripcion\": \"SELEXIPAG no disponible\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219317,
+    "error": null
+  },
+  {
+    "original_line": "19913029-1\tCOMPLEJO DE HEMAGLUTININA DE TOXINA TIPO A DE CLOSTRIDIUM BOTULINUM",
+    "original_code": "19913029-1",
+    "product_name": "COMPLEJO DE HEMAGLUTININA DE TOXINA TIPO A DE CLOSTRIDIUM BOTULINUM",
+    "found_code": "{\n  \"codigo\": \"MD011282\",\n  \"descripcion\": \"COMPLEJO DE HEMAGLUTININA DE TOXINA TIPO A DE CLOSTRIDIUM BOTULINUM 300UI POLVO PARA INYECCION DYSPORT\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220141,
+    "error": null
+  },
+  {
+    "original_line": "19980603-1\tFUNGISTEROL SHAMPOO KETOCONAZOL 2G",
+    "original_code": "19980603-1",
+    "product_name": "FUNGISTEROL SHAMPOO KETOCONAZOL 2G",
+    "found_code": "{\n  \"codigo\": \"MD017277\",\n  \"descripcion\": \"KETOCONAZOL 2G 100ML EQ 2 SHAMPOO 200ML\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220116,
+    "error": null
+  },
+  {
+    "original_line": "20178642-3\tBETAMETASONA FOSFATO SÓDICO EQUIVALENTE A BETAMETASONA BASE",
+    "original_code": "20178642-3",
+    "product_name": "BETAMETASONA FOSFATO SÓDICO EQUIVALENTE A BETAMETASONA BASE",
+    "found_code": "{\n  \"codigo\": \"MD000207\",\n  \"descripcion\": \"BETAMETASONA FOSFATO DISODICO 4MGML SOLUCION INYECTABLE\"\n}",
+    "tokens_used": 218824,
+    "error": null
+  },
+  {
+    "original_line": "19956040-1\tBENZOATO DE BENCILO",
+    "original_code": "19956040-1",
+    "product_name": "BENZOATO DE BENCILO",
+    "found_code": "{\n  \"codigo\": \"MD000562\",\n  \"descripcion\": \"BENCILO BENZOATO 25 LOCION\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218814,
+    "error": null
+  },
+  {
+    "original_line": "416420\tNATURA",
+    "original_code": "416420",
+    "product_name": "NATURA",
+    "found_code": "{\n  \"codigo\": \"91050404\",\n  \"descripcion\": \"BOLSA DE OSTOMIA NATURA PANEL OPACA 57MM REF 416420 UNIDAD\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219585,
+    "error": null
+  },
+  {
+    "original_line": "36240-3\tENOXAPARINA SODICA",
+    "original_code": "36240-3",
+    "product_name": "ENOXAPARINA SODICA",
+    "found_code": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"codigo\": \"MD000055\",\n    \"descripcion\": \"ENOXAPARINA SODICA 40MG 0 4ML SOLUCION INYECTABLE\",\n    \"original_code\": null,\n    \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n  },\n  \"required\": [\n    \"codigo\",\n    \"descripcion\"\n  ]\n}",
+    "tokens_used": 218984,
+    "error": null
+  },
+  {
+    "original_line": "L20108223\tPROWHEY EPOC",
+    "original_code": "L20108223",
+    "product_name": "PROWHEY EPOC",
+    "found_code": "{\n  \"codigo\": \"MD012194\",\n  \"descripcion\": \"PROWHEY EPOC\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218928,
+    "error": null
+  },
+  {
+    "original_line": "19908545-13\tOXCARBAZEPINA",
+    "original_code": "19908545-13",
+    "product_name": "OXCARBAZEPINA",
+    "found_code": "{\n  \"codigo\": \"MD011025\",\n  \"descripcion\": \"OXCARBAZEPINA 300 MG TABLETA H\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219456,
+    "error": null
+  },
+  {
+    "original_line": "NCE50SE\tJERINGA NUTRICAIR ENTERAL CON CONEXION ENFIT HEMBRA 50M/60MLL",
+    "original_code": "NCE50SE",
+    "product_name": "JERINGA NUTRICAIR ENTERAL CON CONEXION ENFIT HEMBRA 50M/60MLL",
+    "found_code": "{\n  \"codigo\": \"91050450\",\n  \"descripcion\": \"JERINGA PARA SONDA ALIMENTACION ENTERAL CON ENFIT DE 60ML UNIDAD\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219737,
+    "error": null
+  },
+  {
+    "original_line": "20104628-5\tATORVASTATINA CALCICA EQUIVALENTE A ATORVASTATINA BASE",
+    "original_code": "20104628-5",
+    "product_name": "ATORVASTATINA CALCICA EQUIVALENTE A ATORVASTATINA BASE",
+    "found_code": "{\n  \"codigo\": \"MD001241\",\n  \"descripcion\": \"ATORVASTATINA 10 MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219653,
+    "error": null
+  },
+  {
+    "original_line": "20268798\tTOALLITAS HÚMEDAS WINNY ALOE VERA Y VITAMINA E",
+    "original_code": "20268798",
+    "product_name": "TOALLITAS HÚMEDAS WINNY ALOE VERA Y VITAMINA E",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 1000000, Requested 107476. Please try again in 6.448s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "19956673-10\tCARBOXIMETILCELULOSA SODICA",
+    "original_code": "19956673-10",
+    "product_name": "CARBOXIMETILCELULOSA SODICA",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 1000000, Requested 107472. Please try again in 6.448s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20093919-2\tBETAMETASONA DIPROPIONATO EQUIVALENTE ABETAMETASONABASE",
+    "original_code": "20093919-2",
+    "product_name": "BETAMETASONA DIPROPIONATO EQUIVALENTE ABETAMETASONABASE",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 1000000, Requested 107479. Please try again in 6.448s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20060384-6\tTAK -390 MR(COMPUESTO POR 58 MG DEGRANULOS LS + 210 MG DE GRANULOS -H)EQUIVALENTES A DEXLANSOPRAZOL",
+    "original_code": "20060384-6",
+    "product_name": "TAK -390 MR(COMPUESTO POR 58 MG DEGRANULOS LS + 210 MG DE GRANULOS -H)EQUIVALENTES A DEXLANSOPRAZOL",
+    "found_code": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"codigo\": \"MD011302\",\n    \"descripcion\": \"DEXLANSOPRAZOL 60MG CAPSULAS DE LIBERACION RETARDADA DEXILANT\",\n    \"original_code\": null,\n    \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n  },\n  \"required\": [\n    \"codigo\",\n    \"descripcion\"\n  ]\n}",
+    "tokens_used": 218892,
+    "error": null
+  },
+  {
+    "original_line": "20018905-1\tCIPIONATO DE ESTRADIOL",
+    "original_code": "20018905-1",
+    "product_name": "CIPIONATO DE ESTRADIOL",
+    "found_code": "{\n  \"codigo\": \"MD003329\",\n  \"descripcion\": \"CIPIONATO DE ESTRADIOL ACETATO DE MEDROXIPROGESTERONA 5 25MG SUSPENSION INYECTABLE\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218902,
+    "error": null
+  },
+  {
+    "original_line": "20059276-1\tDEXAMETASONA SODIO FOSFATO EQUIVALENTE A DEXAMETASONA BASE",
+    "original_code": "20059276-1",
+    "product_name": "DEXAMETASONA SODIO FOSFATO EQUIVALENTE A DEXAMETASONA BASE",
+    "found_code": "{\n  \"codigo\": \"MD000210\",\n  \"descripcion\": \"DEXAMETASONA FOSFATO 4MGML SOLUCION INYECTABLE 1ML\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219549,
+    "error": null
+  },
+  {
+    "original_line": "19953234-1\tAMOXICILINA 250 MG /5ML POLVO PARA SUSPENSION",
+    "original_code": "19953234-1",
+    "product_name": "AMOXICILINA 250 MG /5ML POLVO PARA SUSPENSION",
+    "found_code": "{\n  \"codigo\": \"MD000229\",\n  \"descripcion\": \"AMOXICILINA 250MG 5ML SUSPENSION ORAL FRASCO 100ML\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219924,
+    "error": null
+  },
+  {
+    "original_line": "139-TUXL\tPAÑAL DESECHABLE TENA SLIP ULTRA TALLA XL",
+    "original_code": "139-TUXL",
+    "product_name": "PAÑAL DESECHABLE TENA SLIP ULTRA TALLA XL",
+    "found_code": "{\n  \"codigo\": \"91050567\",\n  \"descripcion\": \"PANAL TENA SLIP CLASICO TALLA XL UNIDAD\"\n}",
+    "tokens_used": 220216,
+    "error": null
+  },
+  {
+    "original_line": "19963423-7\tIBUPROFENO",
+    "original_code": "19963423-7",
+    "product_name": "IBUPROFENO",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 1000000, Requested 107468. Please try again in 6.448s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20007289-2\tRISPERIDONA",
+    "original_code": "20007289-2",
+    "product_name": "RISPERIDONA",
+    "found_code": "{\n  \"codigo\": \"MD002324\",\n  \"descripcion\": \"RISPERIDONA 1 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218938,
+    "error": null
+  },
+  {
+    "original_line": "1982997-1\tKETOPROFENO LIBRE DE PIROGENOS 100%",
+    "original_code": "1982997-1",
+    "product_name": "KETOPROFENO LIBRE DE PIROGENOS 100%",
+    "found_code": "{\n  \"codigo\": \"MD014996\",\n  \"descripcion\": \"KETOPROFENO 100MG POLVO LIOFILIZADO PARA INYECCION\"\n}",
+    "tokens_used": 219132,
+    "error": null
+  },
+  {
+    "original_line": "19992554-1\tCLORHIDRATO DEDORZOLAMIDA EQUIVALENTE A DORZOLAMIDA",
+    "original_code": "19992554-1",
+    "product_name": "CLORHIDRATO DEDORZOLAMIDA EQUIVALENTE A DORZOLAMIDA",
+    "found_code": "{\n  \"codigo\": \"MD015452\",\n  \"descripcion\": \"DORZOLAMIDA CLORHIDRATO 20MG ML SOLUCION OFTALMICA 5ML\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219488,
+    "error": null
+  },
+  {
+    "original_line": "20044943-8\tMETFORMINA CLORHIDRATO",
+    "original_code": "20044943-8",
+    "product_name": "METFORMINA CLORHIDRATO",
+    "found_code": "{\n  \"codigo\": \"MD000865\",\n  \"descripcion\": \"METFORMINA 500 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219390,
+    "error": null
+  },
+  {
+    "original_line": "20212621-3\tRIFAXIMINA",
+    "original_code": "20212621-3",
+    "product_name": "RIFAXIMINA",
+    "found_code": "{\n  \"codigo\": \"MD000777\",\n  \"descripcion\": \"RIFAXIMINA 200 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219964,
+    "error": null
+  },
+  {
+    "original_line": "19984823-1\tKETOTIFENO FUMARATO EQUIVALENTE A KETOTIFENO BASE",
+    "original_code": "19984823-1",
+    "product_name": "KETOTIFENO FUMARATO EQUIVALENTE A KETOTIFENO BASE",
+    "found_code": "{\n  \"codigo\": \"MD015512\",\n  \"descripcion\": \"KETOTIFENO FUMARATO 0 25MG ML SOLUCION OFTALMICA 5ML KENALER\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219871,
+    "error": null
+  },
+  {
+    "original_line": "20157620-6\tLEVOCETIRIZINA DICLORHIDRATO",
+    "original_code": "20157620-6",
+    "product_name": "LEVOCETIRIZINA DICLORHIDRATO",
+    "found_code": "{\n  \"codigo\": \"MD006558\",\n  \"descripcion\": \"LEVOCETIRIZINA 5 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220486,
+    "error": null
+  },
+  {
+    "original_line": "19929866-8\tGABAPENTIN",
+    "original_code": "19929866-8",
+    "product_name": "GABAPENTIN",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 991422, Requested 107468. Please try again in 5.933s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "19933626-3\tACIDO POLIACRÍLICO",
+    "original_code": "19933626-3",
+    "product_name": "ACIDO POLIACRÍLICO",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 987695, Requested 107470. Please try again in 5.709s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "33661-1\tCLORURO DE SODIO USP",
+    "original_code": "33661-1",
+    "product_name": "CLORURO DE SODIO USP",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 987184, Requested 107469. Please try again in 5.679s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20089824-1\tMONTELUKAST SODICO EQUIV A MONTELUKAST",
+    "original_code": "20089824-1",
+    "product_name": "MONTELUKAST SODICO EQUIV A MONTELUKAST",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 975681, Requested 107475. Please try again in 4.989s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "19942216-3\tCLORFENIRAMINA MALEATO",
+    "original_code": "19942216-3",
+    "product_name": "CLORFENIRAMINA MALEATO",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 980891, Requested 107471. Please try again in 5.301s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20122985-4\tBACLOFENO",
+    "original_code": "20122985-4",
+    "product_name": "BACLOFENO",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 975481, Requested 107467. Please try again in 4.976s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "19941968-4\t ALBENDAZOL SUSPENSION ORAL 20ML",
+    "original_code": "19941968-4",
+    "product_name": "ALBENDAZOL SUSPENSION ORAL 20ML",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 972868, Requested 107473. Please try again in 4.82s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20103748-9\tFLUTICASONA PROPIONATO",
+    "original_code": "20103748-9",
+    "product_name": "FLUTICASONA PROPIONATO",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 968908, Requested 107471. Please try again in 4.582s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "19929219-4\tDIFENHIDRAMINA CLORHIDRATO",
+    "original_code": "19929219-4",
+    "product_name": "DIFENHIDRAMINA CLORHIDRATO",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 1000000, Requested 107472. Please try again in 6.448s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20144754-1\tACIDO ZOLENDRONICO MONOHIDRATO EQUIVALENTE A ACIDO ZOLENDRÓNICO",
+    "original_code": "20144754-1",
+    "product_name": "ACIDO ZOLENDRONICO MONOHIDRATO EQUIVALENTE A ACIDO ZOLENDRÓNICO",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 1000000, Requested 107481. Please try again in 6.448s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20147754-1\tCANNABIDIOL",
+    "original_code": "20147754-1",
+    "product_name": "CANNABIDIOL",
+    "found_code": "{\n  \"codigo\": \"NA\",\n  \"descripcion\": \"Sin coincidencias para CANNABIDIOL\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218425,
+    "error": null
+  },
+  {
+    "original_line": "20212627-1\tLOTEPREDNOL ETABONATO ESTÉRIL",
+    "original_code": "20212627-1",
+    "product_name": "LOTEPREDNOL ETABONATO ESTÉRIL",
+    "found_code": "{\n  \"codigo\": \"MD015533\",\n  \"descripcion\": \"LOTEPREDNOL ETABONATO 2MG ML SUSPENSION OFTALMICA 5ML\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219219,
+    "error": null
+  },
+  {
+    "original_line": "20096034-5\tDIFENHIDRAMINA CLORHIDRATO",
+    "original_code": "20096034-5",
+    "product_name": "DIFENHIDRAMINA CLORHIDRATO",
+    "found_code": "{\n  \"codigo\": \"MD000595\",\n  \"descripcion\": \"DIFENHIDRAMINA 50 MG CAPSULA\"\n}",
+    "tokens_used": 219313,
+    "error": null
+  },
+  {
+    "original_line": "206776-14\tLEVOTIROXINA SÓDICA",
+    "original_code": "206776-14",
+    "product_name": "LEVOTIROXINA SÓDICA",
+    "found_code": "{\n  \"codigo\": \"MD000216\",\n  \"descripcion\": \"LEVOTIROXINA SODICA 100 MCG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220100,
+    "error": null
+  },
+  {
+    "original_line": "20087891-3\tMOXIFLOXACINA CLORHIDRATO EQUIVALENTE A MOXIFLOXACINA BASE",
+    "original_code": "20087891-3",
+    "product_name": "MOXIFLOXACINA CLORHIDRATO EQUIVALENTE A MOXIFLOXACINA BASE",
+    "found_code": "{\n  \"codigo\": \"MD010987\",\n  \"descripcion\": \"MOXIFLOXACINO CLOHIDRATO 400MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219736,
+    "error": null
+  },
+  {
+    "original_line": "19955476-17\tGLUCOSAMINA SULFATO SÓDICA 1884 MG. EQUIVALENTES AGLUCOSAMINA SULFATO",
+    "original_code": "19955476-17",
+    "product_name": "GLUCOSAMINA SULFATO SÓDICA 1884 MG. EQUIVALENTES AGLUCOSAMINA SULFATO",
+    "found_code": "{\n  \"codigo\": \"MD002050\",\n  \"descripcion\": \"GLUCOSAMINA SULFATO CONDROITIN SULFATO 1500 1200 MG POLVO ORAL\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220650,
+    "error": null
+  },
+  {
+    "original_line": "20086574-3\tLOTEPREDNOL ETABONATO",
+    "original_code": "20086574-3",
+    "product_name": "LOTEPREDNOL ETABONATO",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 1000000, Requested 107470. Please try again in 6.448s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20162036-3\tACIDO TRANEXAMICO",
+    "original_code": "20162036-3",
+    "product_name": "ACIDO TRANEXAMICO",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 1000000, Requested 107469. Please try again in 6.448s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20187695-1\tKETOPROFENO",
+    "original_code": "20187695-1",
+    "product_name": "KETOPROFENO",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 1000000, Requested 107468. Please try again in 6.448s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20193662-1\tIVABRADINA CLORHIDRATO 5.390 MG EQUIVALENTES A IVABRADINA",
+    "original_code": "20193662-1",
+    "product_name": "IVABRADINA CLORHIDRATO 5.390 MG EQUIVALENTES A IVABRADINA",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 1000000, Requested 107479. Please try again in 6.448s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "30051-22\tFENITOINA SODICA",
+    "original_code": "30051-22",
+    "product_name": "FENITOINA SODICA",
+    "found_code": "{\n  \"codigo\": \"MD000469\",\n  \"descripcion\": \"FENITOINA SODICA 100 MG TABLETA O CAPSULA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218500,
+    "error": null
+  },
+  {
+    "original_line": "20148063-1\tCARBIDOPA MONOHIDRATO EQUIVALENTE A CARBIDOPA ANHIDRA",
+    "original_code": "20148063-1",
+    "product_name": "CARBIDOPA MONOHIDRATO EQUIVALENTE A CARBIDOPA ANHIDRA",
+    "found_code": "{\n  \"codigo\": \"MD002282\",\n  \"descripcion\": \"LEVODOPA CARBIDOPA 100 25 mg TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220049,
+    "error": null
+  },
+  {
+    "original_line": "413155\tNATURA SUR-FIT",
+    "original_code": "413155",
+    "product_name": "NATURA SUR-FIT",
+    "found_code": "{\n  \"codigo\": \"91050361\",\n  \"descripcion\": \"BARRERA NATURA PLANA RECORTABLE REGULAR 45MM REF 413155 UNIDAD DURAHESIVE\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 221192,
+    "error": null
+  },
+  {
+    "original_line": "401544\tNATURA SUR-FIT",
+    "original_code": "401544",
+    "product_name": "NATURA SUR-FIT",
+    "found_code": "{\n  \"codigo\": \"91050358\",\n  \"descripcion\": \"BARRERA NATURA PLANA RECORTABLE FLEXIBLE 57MM DURAHESIVE\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 221442,
+    "error": null
+  },
+  {
+    "original_line": "19971867-2\tCLONIDINA CLORHIDRATO",
+    "original_code": "19971867-2",
+    "product_name": "CLONIDINA CLORHIDRATO",
+    "found_code": "{\n  \"codigo\": \"MD000131\",\n  \"descripcion\": \"CLONIDINA 150 MCG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218369,
+    "error": null
+  },
+  {
+    "original_line": "20123370-3\tGUSELKUMAB",
+    "original_code": "20123370-3",
+    "product_name": "GUSELKUMAB",
+    "found_code": "{\n  \"codigo\": \"MD018977\",\n  \"descripcion\": \"GUSELKUMAB 100MGML SOLUCION INYECTABLE JERINGA PRELLENADA CON DISPOSITIVO ULTRSAFE PLUS SUBCUTANEA 1ML TREMFYA\"\n}",
+    "tokens_used": 218951,
+    "error": null
   }
 ]
