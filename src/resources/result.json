@@ -7776,5 +7776,233 @@
     "found_code": "{\n  \"codigo\": \"2\",\n  \"descripcion\": \"SONDA FOLEY NO 22 DOS VIAS UND\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
     "tokens_used": 219777,
     "error": null
+  },
+  {
+    "original_line": "20087188-2\tNEPAFENACO",
+    "original_code": "20087188-2",
+    "product_name": "NEPAFENACO",
+    "found_code": "{\n  \"codigo\": \"MD012893\",\n  \"descripcion\": \"NEPAFENACO 1MG ML SUSPENSION OFTALMICA 5ML\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218822,
+    "error": null
+  },
+  {
+    "original_line": "20139622-1\tLIDOCAINA",
+    "original_code": "20139622-1",
+    "product_name": "LIDOCAINA",
+    "found_code": "{\n  \"codigo\": \"MD000430\",\n  \"descripcion\": \"LIDOCAINA CLORHIDRATO 5 UNGUENTO TOPICO\"\n}",
+    "tokens_used": 219694,
+    "error": null
+  },
+  {
+    "original_line": "L20028514\tLANCETAS REACTIVAS PARA GLUCOMETRO MACH II",
+    "original_code": "L20028514",
+    "product_name": "LANCETAS REACTIVAS PARA GLUCOMETRO MACH II",
+    "found_code": "{\n  \"codigo\": \"91050622\",\n  \"descripcion\": \"LANCETA ESTERILIZADA PARA UN SOLO USO MATCH II\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219786,
+    "error": null
+  },
+  {
+    "original_line": "58452-1\tCLOBETASOL17PROPIONATOEQUIVALENTEACLOBETASOLPROPIONATOANHIDRO",
+    "original_code": "58452-1",
+    "product_name": "CLOBETASOL17PROPIONATOEQUIVALENTEACLOBETASOLPROPIONATOANHIDRO",
+    "found_code": "{\n  \"codigo\": \"MD001354\",\n  \"descripcion\": \"CLOBETASOL PROPIONATO 0 05G 100G EQ 0 05 CREMA TOPICA 30G\"\n}",
+    "tokens_used": 219725,
+    "error": null
+  },
+  {
+    "original_line": "20203309\tPROWHEY NEUMO",
+    "original_code": "20203309",
+    "product_name": "PROWHEY NEUMO",
+    "found_code": "{\n  \"codigo\": \"MD018445\",\n  \"descripcion\": \"ALIMENTO EN POLVO CON BASE EN AISLADO DE PROTEINA DE SUERO DE LECHE CON AMINOACIDOS ESENCIALES Y NO ESENCIALES MALTODEXTRINA EPA Y DHA VITAMINAS Y MINERALES POLVO ORAL SOBRE 87G PROWHEY NEUMO\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219507,
+    "error": null
+  },
+  {
+    "original_line": "19978105-1\tVALSARTAN",
+    "original_code": "19978105-1",
+    "product_name": "VALSARTAN",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 1000000, Requested 107467. Please try again in 6.448s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20023511-3\tLINAGLIPTINA",
+    "original_code": "20023511-3",
+    "product_name": "LINAGLIPTINA",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 1000000, Requested 107468. Please try again in 6.448s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20082695-1\tCLORHIDRATO DE METFORMINA",
+    "original_code": "20082695-1",
+    "product_name": "CLORHIDRATO DE METFORMINA",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 1000000, Requested 107471. Please try again in 6.448s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "CODIGO_CUM\tDESCRIPCION_MATERIAL",
+    "original_code": "CODIGO_CUM",
+    "product_name": "DESCRIPCION_MATERIAL",
+    "found_code": null,
+    "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-5 in organization org-es8CwbE2u0IuhDlYAGyiJzAW on tokens per min (TPM): Limit 1000000, Used 1000000, Requested 107470. Please try again in 6.448s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}"
+  },
+  {
+    "original_line": "20041735-5\tPREGABALINA",
+    "original_code": "20041735-5",
+    "product_name": "PREGABALINA",
+    "found_code": "{\n  \"codigo\": \"MD002262\",\n  \"descripcion\": \"PREGABALINA 75 MG CAPSULA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219068,
+    "error": null
+  },
+  {
+    "original_line": "212764-6\tHIDROCLOROTIAZIDA",
+    "original_code": "212764-6",
+    "product_name": "HIDROCLOROTIAZIDA",
+    "found_code": "{\n  \"codigo\": \"MD000134\",\n  \"descripcion\": \"HIDROCLOROTIAZIDA 25 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218818,
+    "error": null
+  },
+  {
+    "original_line": "1981505-17\tGEMFIBROZILO",
+    "original_code": "1981505-17",
+    "product_name": "GEMFIBROZILO",
+    "found_code": "{\n  \"codigo\": \"MD000989\",\n  \"descripcion\": \"GEMFIBROZILO 900 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219071,
+    "error": null
+  },
+  {
+    "original_line": "20078974-42\tROSUVASTATINA CÁLCICAEQUIVALENTE A ROSUVASTATINABASE",
+    "original_code": "20078974-42",
+    "product_name": "ROSUVASTATINA CÁLCICAEQUIVALENTE A ROSUVASTATINABASE",
+    "found_code": "{\n  \"codigo\": \"MD001268\",\n  \"descripcion\": \"ROSUVASTATINA 20 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219660,
+    "error": null
+  },
+  {
+    "original_line": "19960116-15\tLEVOTIROXINA SODICA",
+    "original_code": "19960116-15",
+    "product_name": "LEVOTIROXINA SODICA",
+    "found_code": "{\n  \"codigo\": \"MD000216\",\n  \"descripcion\": \"LEVOTIROXINA SODICA 100 MCG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218628,
+    "error": null
+  },
+  {
+    "original_line": "20061399-38\tNIFEDIPINO",
+    "original_code": "20061399-38",
+    "product_name": "NIFEDIPINO",
+    "found_code": "{\n  \"codigo\": \"MD000151\",\n  \"descripcion\": \"NIFEDIPINO 30MG TABLETA O CAPSULA DE LIBERACION PROGRAMADA LIBERACION 24 Y 12 HORAS\"\n}",
+    "tokens_used": 218619,
+    "error": null
+  },
+  {
+    "original_line": "20140779-2\tTAMSULOSINA CLORHIDRATO",
+    "original_code": "20140779-2",
+    "product_name": "TAMSULOSINA CLORHIDRATO",
+    "found_code": "{\n  \"codigo\": \"MD007630\",\n  \"descripcion\": \"TAMSULOSINA CLORHIDRATO 0.4MG CAPSULA DE LIBERACION PROLONGADA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219153,
+    "error": null
+  },
+  {
+    "original_line": "139-W4\tPAÑAL DESECHABLE ETAPA 4",
+    "original_code": "139-W4",
+    "product_name": "PAÑAL DESECHABLE ETAPA 4",
+    "found_code": "{\n  \"codigo\": \"91011054\",\n  \"descripcion\": \"PANAL WINNY GOLD ETAPA No 4 UND\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219393,
+    "error": null
+  },
+  {
+    "original_line": "20032011-9\tÓXIDO DE ZINC",
+    "original_code": "20032011-9",
+    "product_name": "ÓXIDO DE ZINC",
+    "found_code": "{\n  \"codigo\": \"MD012863\",\n  \"descripcion\": \"OXIDO DE ZINC 25G 100G EQ A 25 UNGUENTO 500G\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219720,
+    "error": null
+  },
+  {
+    "original_line": "20012566\tGASA ESTERIL 7.5CMX7.5CM SOBX2 BOLX24 (CUREBAND) - ADHINTER",
+    "original_code": "20012566",
+    "product_name": "GASA ESTERIL 7.5CMX7.5CM SOBX2 BOLX24 (CUREBAND) - ADHINTER",
+    "found_code": "{\n  \"codigo\": \"91043681\",\n  \"descripcion\": \"GASA ESTERIL NO TEJIDA 7 5 X 7 5 CM SOBRE POR CINCO UNIDADES\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 220324,
+    "error": null
+  },
+  {
+    "original_line": "20089355-30\tROSUVASTATINA CÁLCICA 41.66 MG EQUIVALENTE A ROSUVASTATICA BASE",
+    "original_code": "20089355-30",
+    "product_name": "ROSUVASTATINA CÁLCICA 41.66 MG EQUIVALENTE A ROSUVASTATICA BASE",
+    "found_code": "{\n  \"codigo\": \"MD006419\",\n  \"descripcion\": \"ROSUVASTATINA 40 MG TABLETA\"\n}",
+    "tokens_used": 219068,
+    "error": null
+  },
+  {
+    "original_line": "55894-14\tAMLODIPINO BESILATOEQUIVALENTE A AMLODIPINO BASE",
+    "original_code": "55894-14",
+    "product_name": "AMLODIPINO BESILATOEQUIVALENTE A AMLODIPINO BASE",
+    "found_code": "{\n  \"type\": \"object\",\n  \"properties\": {\n    \"codigo\": {\n      \"type\": \"string\",\n      \"description\": \"Código alfanumérico identificador del elemento\",\n      \"pattern\": \"^[A-Za-z0-9]+$\"\n    },\n    \"descripcion\": {\n      \"type\": \"string\",\n      \"description\": \"Descripción alfanumérica del elemento\",\n      \"pattern\": \"^[A-Za-z0-9\\\\s]+$\"\n    },\n    \"original_code\": {\n      \"type\": \"string\",\n      \"description\": \"Código original inmutable\",\n      \"const\": null\n    },\n    \"original_file\": {\n      \"type\": \"string\",\n      \"description\": \"Nombre o ruta del archivo original inmutable\",\n      \"const\": \"resources/NEPS_AUTO.xlsx\"\n    }\n  },\n  \"required\": [\n    \"codigo\",\n    \"descripcion\"\n  ],\n  \"codigo\": \"MD000150\",\n  \"descripcion\": \"AMLODIPINO 5MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219459,
+    "error": null
+  },
+  {
+    "original_line": "17144-8\tAMITRIPTILINA CLORHIDRATO",
+    "original_code": "17144-8",
+    "product_name": "AMITRIPTILINA CLORHIDRATO",
+    "found_code": "{\n  \"codigo\": \"MD000512\",\n  \"descripcion\": \"AMITRIPTILINA CLORHIDRATO 25 mg TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218955,
+    "error": null
+  },
+  {
+    "original_line": "19965499-11\tLOSARTAN POTÁSICO",
+    "original_code": "19965499-11",
+    "product_name": "LOSARTAN POTÁSICO",
+    "found_code": "{\n  \"codigo\": \"MD000161\",\n  \"descripcion\": \"LOSARTAN 50 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 218875,
+    "error": null
+  },
+  {
+    "original_line": "19953922-2\tBISACODILO",
+    "original_code": "19953922-2",
+    "product_name": "BISACODILO",
+    "found_code": "{\n  \"codigo\": \"MD000020\",\n  \"descripcion\": \"BISACODILO 5MG TABLETA\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219060,
+    "error": null
+  },
+  {
+    "original_line": "20282663\tSONDA FOLEY 2 VIAS #16FR CX10 - LIFE CARE",
+    "original_code": "20282663",
+    "product_name": "SONDA FOLEY 2 VIAS #16FR CX10 - LIFE CARE",
+    "found_code": "{\n  \"codigo\": \"91010914\",\n  \"descripcion\": \"SONDA FOLEY No 16 DOS VIAS UND\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219334,
+    "error": null
+  },
+  {
+    "original_line": "20082364-1\tTIOTROPIO",
+    "original_code": "20082364-1",
+    "product_name": "TIOTROPIO",
+    "found_code": "{\n  \"codigo\": \"MD002948\",\n  \"descripcion\": \"BROMURO DE TIOTROPIO MONOHIDRATO 18MCG CAPSULA PARA INHALACION\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219465,
+    "error": null
+  },
+  {
+    "original_line": "41072-10\tOMEPRAZOL PELLETS 8.5%EQUIVALENTE A OMEPRAZOL BASE",
+    "original_code": "41072-10",
+    "product_name": "OMEPRAZOL PELLETS 8.5%EQUIVALENTE A OMEPRAZOL BASE",
+    "found_code": "{\n  \"codigo\": \"MD000007\",\n  \"descripcion\": \"OMEPRAZOL 20 MG CAPSULA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219472,
+    "error": null
+  },
+  {
+    "original_line": "20047167-5\tVALSARTAN",
+    "original_code": "20047167-5",
+    "product_name": "VALSARTAN",
+    "found_code": "{\n  \"codigo\": \"MD001181\",\n  \"descripcion\": \"VALSARTAN 160 MG TABLETA\",\n  \"original_code\": null,\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219706,
+    "error": null
+  },
+  {
+    "original_line": "20004400\tBOLSA DE DRENAJE URINARIO CISTOFLO ADULTO (UND)",
+    "original_code": "20004400",
+    "product_name": "BOLSA DE DRENAJE URINARIO CISTOFLO ADULTO (UND)",
+    "found_code": "{\n  \"codigo\": \"91011026\",\n  \"descripcion\": \"BOLSA DE DRENAJE URINARIO CISTOFLO ADULTO UND\",\n  \"original_file\": \"resources/NEPS_AUTO.xlsx\"\n}",
+    "tokens_used": 219851,
+    "error": null
   }
 ]
